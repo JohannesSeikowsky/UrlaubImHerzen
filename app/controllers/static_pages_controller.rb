@@ -1,47 +1,52 @@
 class StaticPagesController < ApplicationController
+  
+  # Controller Actions general pages 
+
   def home
   end
-  
-  def husum
-  end
-  
-  def sylt
-  end
 
-  def ueber_uns
+  def wir
   end
 
   def kontakt
   end
 
+  def husum_tipps
+  end  
+
+  def sylt_tipps
+  end  
+
   def ferienwohnungen
   end
 
-
-  # actions for the specific apartments.
-
-  def woldsenstrasse_klein
+  def ferienwohnungen_husum
+  end
+  
+  def ferienwohnungen_sylt
   end
 
-  def woldsenstrasse_gross
+  # Controller Actions of specific apartements 
+
+  def woldsenstrasse1
   end
 
-  def rosenstrasse_og
+  def woldsenstrasse2
   end
 
-  def rosenstrasse_eg
+  def rosenstrasse1
+  end
+
+  def rosenstrasse2
   end
 
   def paulstrasse
   end
   
-  def strandstrasse_eg
+  def strandstrasse1
   end
 
-  def strandstrasse_og
+  def strandstrasse2
   end
-
-  def test
-  end 
 
 end
