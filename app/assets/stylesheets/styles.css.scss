@@ -1,6 +1,75 @@
 @import 'bootstrap';
 
-
-h1{
-	font-size: 48px; 
+body{
+	background: asset-data-url("background.JPG") no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   	font-family: Arial;
 }
+
+
+/* HEADER */ 
+
+.header{
+	background-color: #4C849B; 
+	border-top: 6px solid #EC992C;
+	padding: 0px 7.5% 0px 7.5%;
+	height: 125px; 
+	margin-bottom: 50px; 
+		.logo{
+			width: 30%; 
+			float: left; 
+			img{
+				margin-top: 2.5px;
+				height: 120px;
+			}		
+		}
+		.part_of_header{
+			width: 14%; 
+			float: left; 
+			text-align: center; 
+			height: 125px;
+			h3{
+				color: white; 
+				font-size: 23px;
+				line-height: 100px;
+				font-weight: normal;
+			}
+			a:hover{
+				text-decoration: none; 
+			}
+		}
+		.part_of_header:hover{
+			background-color: #EC992C;
+		}
+}
+
+
+/* FOOTER */ 
+
+.footer{
+	background-color: #4C9ABF; 
+    opacity: 0.85;
+	margin-top: 135px;
+	.kontakt_box{
+		color: black; 
+		background-color: #4C9ABF; 
+		h2{
+			font-size: 35px;
+			padding-top: 13px 0px 10px 0px; 
+		}
+		h4{
+			font-size: 21px;
+			padding-bottom: 1px;
+		}
+		a{
+			color: #E4E4E4;
+		}
+	}
+}
+
+
+
+

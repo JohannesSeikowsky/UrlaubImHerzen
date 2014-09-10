@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ferien</title>
+  <title>Urlaub im Herzen Nordfrieslands</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
+  <!-- HTML SHIM-->
+  	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 </head>
 <body>
 
-<%= yield %>
+<div class="background_container">
+	<%= render 'layouts/header' %> 
+	<%= yield %>
+	<%= render 'layouts/footer' %> 
+</div>
 
 </body>
 </html>

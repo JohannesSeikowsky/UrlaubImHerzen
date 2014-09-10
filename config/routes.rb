@@ -1,6 +1,23 @@
 Rails.application.routes.draw do
   root "static_pages#home"
 
+  get 'husum' => 'static_pages#husum'
+  get 'sylt' => 'static_pages#sylt'
+  get 'ueber_uns' => 'static_pages#ueber_uns'
+  get 'kontakt' => 'static_pages#kontakt'
+  get 'ueber_husum' => 'static_pages#ueber_husum'
+  get 'ueber_sylt' => 'static_pages#ueber_sylt'
+  get 'ferienwohnungen' => 'static_pages#ferienwohnungen'
+
+
+  get 'austernfischer' => 'static_pages#woldsenstrasse_klein'
+  get 'kleiner_austernfischer' => 'static_pages#woldsenstrasse_gross'
+  get 'rosenstrasse_og' => 'static_pages#rosenstrasse_og'
+  get 'rosenstrasse_eg' => 'static_pages#rosenstrasse_eg'
+  get 'paulstrasse' => 'static_pages#paulstrasse'
+  get 'strandstrasse_eg' => 'static_pages#strandstrasse_eg'
+  get 'strandstrasse_og' => 'static_pages#strandstrasse_og'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
