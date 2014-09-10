@@ -27,6 +27,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Rails Html Sanitizer for HTML sanitization
 gem 'rails-html-sanitizer', '~> 1.0'
 
+# Use Bootstrap for Front-End
+gem 'bootstrap-sass', '2.2.2'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 group :production do
