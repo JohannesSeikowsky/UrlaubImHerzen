@@ -205,38 +205,40 @@ body{
 
 
 
-/* FERIENWOHNUNGS SUMMARIES */ 
+
+/* FERIENWOHNUNGS AUFLISTUNGEN */ 
 
 .ferienwohnungen_heading{
-	color: #212F34; 
-	font-size: 49px; 	
-	padding-bottom: 25px; 
-	text-align: center; 	
+	h1{
+		font-size: 49px; 	
+		padding-bottom: 45px; 
+		text-align: center; 
+	}	
+	#husum{
+		color: white; 
+	}
+	#sylt{
+		color: #212F34; 	
+	}
 }
 
-.ferienwohnungen_heading_husum{
-	color: white; 
-	font-size: 49px; 	
-	padding-bottom: 25px; 	
-	text-align: center; 	
+.wohnungs_picture{
+	padding: 5px; 
+	background-color: #53ADD6;
+	border: none; 
+	img{
+		width: 100%;
+		height: 345px;	
+	}
 }
 
-/* .ferienwohnungen_background{
-	width: 84%; 
-	margin: 0 8% 0 8%; 
-	padding: 40px 10px 120px 10px; 
-	background-color: #D0D0D0; 
-	opacity: 0.87;
-	color: black;
-} */ 
-
-.wohnungsbeschreibung{
+.wohnungs_beschreibung{
+	height: 350px;
+	padding: 12px 0px 0px 40px; 
 	background-color: #DDDDDD;
 	opacity: 0.98; 
 	color: #212225; 
-	padding: 12px 0px 0px 40px; 
-	height: 350px;
-	border-radius: 3px;
+	border-radius: 3px;	
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	h2{
@@ -253,17 +255,6 @@ body{
 	}
 }
 
-.boxcontainer{
-	padding: 5px; 
-	background-color: #53ADD6;
-	border: none; 
-	opacity: 2;
-}
-
-.boxportfolio2.fixed img {
-	width:100%;
-	height: 350px;
-}
 
 
 
