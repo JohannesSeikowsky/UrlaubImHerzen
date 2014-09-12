@@ -1,6 +1,8 @@
 @import 'bootstrap';
 
 
+/* GENERAL */ 
+
 body{
 	background: asset-data-url("Background.JPG") no-repeat center center fixed;
   	-webkit-background-size: cover;
@@ -10,6 +12,17 @@ body{
    	font-family: Arial;
    	width: 100%;
 }
+
+#page_title{
+	color: #171B1C; 
+	font-size: 49px; 
+	text-align: center; 	
+	padding: 20px 0px; 
+	line-height: 1.15; 
+}
+
+
+
 
 /* HEADER */ 
 
@@ -79,14 +92,6 @@ body{
 
 /* HOMEPAGE */ 
 
-#page_title{
-	color: #171B1C; 
-	font-size: 49px; 
-	text-align: center; 	
-	padding: 20px 0px; 
-	line-height: 1.15; 
-}
-
 .home_picture{
 	float:left;
 	text-align: center; 
@@ -104,32 +109,6 @@ body{
 		height: 350px;
 		padding: 5px; 
 		background-color: #53ADD6;
-	}
-}
-
-
-
-
-/* KONTAKT */ 
-#kontakt_heading{
-	color: #171B1C; 
-	line-height: 1.2;
-	font-size: 43px; 	
-	padding-bottom: 10px;
-	text-align: center; 	
-}
-
-.kontakt_box{
-	padding: 20px 40px 70px 60px; 
-	margin-top: 10px; 
-	height: 340px;
-	background-color: #D0D0D0; 
-	opacity: 0.85;
-	color: black;
-	p{
-		font-size: 19px;
-		font-weight: bold; 
-		line-height: 1.6; 
 	}
 }
 
@@ -161,6 +140,139 @@ body{
 		margin-bottom: 25px; 
 	}
 }
+
+
+
+
+/* KONTAKT */ 
+
+#kontakt_heading{
+	color: #171B1C; 
+	line-height: 1.2;
+	font-size: 43px; 	
+	padding-bottom: 10px;
+	text-align: center; 	
+}
+
+.kontakt_box{
+	padding: 20px 40px 70px 60px; 
+	margin-top: 10px; 
+	height: 340px;
+	background-color: #D0D0D0; 
+	opacity: 0.85;
+	color: black;
+	p{
+		font-size: 19px;
+		font-weight: bold; 
+		line-height: 1.6; 
+	}
+}
+
+
+
+
+/* HUSUM_UND_SYLT_TIPPS */ 
+
+.tipps_background{
+	background-color: #D0D0D0; 
+	opacity: 0.91;
+	color: black;	
+	width: 72%; 
+	margin: 0 14% 0 14%; 
+	padding: 55px 8px 65px 8px; 
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+		h3{
+			font-size: 28px;
+			margin-top: 0px;
+		}
+		p{
+			line-height: 1.45;
+			font-size: 18px;
+		}
+		img{
+			width: 100%;
+		}
+		.imagecontainer{
+			padding: 5px; 
+			background-color: #53ADD6;
+			border: none; 
+			margin-bottom: 20px;
+		}
+}
+
+
+
+
+/* FERIENWOHNUNGS SUMMARIES */ 
+
+.ferienwohnungen_heading{
+	color: #212F34; 
+	font-size: 49px; 	
+	padding-bottom: 25px; 
+	text-align: center; 	
+}
+
+.ferienwohnungen_heading_husum{
+	color: white; 
+	font-size: 49px; 	
+	padding-bottom: 25px; 	
+	text-align: center; 	
+}
+
+/* .ferienwohnungen_background{
+	width: 84%; 
+	margin: 0 8% 0 8%; 
+	padding: 40px 10px 120px 10px; 
+	background-color: #D0D0D0; 
+	opacity: 0.87;
+	color: black;
+} */ 
+
+.wohnungsbeschreibung{
+	background-color: #DDDDDD;
+	opacity: 0.98; 
+	color: #212225; 
+	padding: 12px 0px 0px 40px; 
+	height: 350px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	h2{
+		font-size: 37px;
+		padding-bottom: 3px;	
+	}
+	ul{
+		padding-bottom: 12px;
+	}
+	li{
+		font-size: 18px;
+		padding-bottom: 4px;
+		font-weight: bold;
+	}
+}
+
+.boxcontainer{
+	padding: 5px; 
+	background-color: #53ADD6;
+	border: none; 
+	opacity: 2;
+}
+
+.boxportfolio2.fixed img {
+	width:100%;
+	height: 350px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
