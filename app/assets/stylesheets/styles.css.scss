@@ -21,6 +21,12 @@ body{
 	line-height: 1.15; 
 }
 
+/* setting a sass mixin */ 
+@mixin border-radius{
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;	
+}
 
 
 
@@ -256,6 +262,115 @@ body{
 }
 
 
+
+
+/* FERIENWOHNUNGS SPEZIFISCH */ 
+
+.spezifische_wohnungsbeschreibung{
+	background-color: #DDDDDD;
+	opacity: 0.98; 
+	height: 350px;	
+	padding: 12px 0px 0px 40px; 
+	color: #212225; 
+    @include border-radius;
+	overflow: scroll;
+	p{
+		padding: 0px 30px 20px 10px;
+		font-size: 16px;
+		line-height: 1.4;
+	}
+}
+
+.small_images_container{
+	padding: 5px; 
+	height: 200px; 
+	background-color: #53ADD6;
+	border: none; 
+	img{
+		width: 100%;
+		height: 190px; 
+	}
+}
+
+.prices{
+	background-color: #DDDDDD;
+	opacity: 0.98; 
+	height: 470px;	
+	padding: 10px 35px 30px 35px;
+	color: #212225; 
+	font-size: 26px; 
+    @include border-radius;
+	overflow: scroll;
+	table{
+		width: 95%;
+		height: 70%;
+		tr{
+		height: 25%;
+		.align_center{
+			text-align: center;
+		}
+		}
+	}
+	.text{
+		height: 30%; 
+		padding-top: 10px;
+	}
+	p{
+		font-size: 16px; 
+	}
+	h4{
+		font-size: 20px; 
+		line-height: 1.1;
+		padding-top: 10px;
+	}
+
+}
+
+.einrichtung{
+	background-color: #DDDDDD;
+	opacity: 0.98; 
+	height: 470px;	    
+	padding: 10px 40px 30px 35px;
+	color: #212225; 
+	overflow: scroll;
+	@include border-radius; 
+	h2{
+		padding-bottom: 3px; 
+		font-size: 26px; 
+	}
+	p{
+		font-size: 16px;
+		line-height: 1.45;
+	}
+}
+
+.kundenmeinungen{
+	background-color: #DDDDDD;
+	height: 470px;
+	color: #212225; 
+	padding: 10px 40px 30px 35px;
+	opacity: 0.98; 
+    overflow: scroll;
+    @include border-radius;
+}
+
+
+
+/* to be replace for first element */
+.boxportfolio2 {
+	float:left;
+	padding-right:20px;
+	width:48.317948717948715%;
+	display:inline-block;
+	margin-bottom:20px;
+	position:relative;
+	z-index:0;
+}
+
+.boxportfolio2.fixed img {
+	width:100%;
+	height: 350px;
+}
 
 
 
