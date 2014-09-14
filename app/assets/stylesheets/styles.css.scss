@@ -1,6 +1,20 @@
 @import 'bootstrap';
 
 
+
+/* SASS SETTINGS */ 
+
+@mixin border-radius{
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;	
+}
+
+$color_of_page_title: #171B1C;
+$text_box_background: #DDDDDD;
+
+
+
 /* GENERAL */ 
 
 body{
@@ -14,18 +28,15 @@ body{
 }
 
 #page_title{
-	color: #171B1C; 
+	color: $color_of_page_title; 
 	font-size: 49px; 
 	text-align: center; 	
 	padding: 20px 0px; 
 	line-height: 1.15; 
 }
 
-/* setting a sass mixin */ 
-@mixin border-radius{
-	border-radius: 4px;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;	
+a:hover{
+	text-decoration: none; 
 }
 
 
@@ -51,6 +62,7 @@ body{
 			float: left; 
 			text-align: center; 
 			height: 125px;
+			overflow: scroll;
 			h3{
 				color: white; 
 				font-size: 23px;
@@ -79,6 +91,7 @@ body{
 		color: black; 
 		background-color: #4C9ABF; 
 		padding: 30px 0px 60px 0px;  
+		overflow: scroll;
 		h2{
 			font-size: 35px;
 			padding-top: 13px 0px 10px 0px; 
@@ -99,19 +112,15 @@ body{
 /* HOMEPAGE */ 
 
 .home_picture{
-	float:left;
+	float: left;
 	text-align: center; 
-	z-index:0;
 	h2{
-		color: #20292C; 
+		color: $color_of_page_title; 
+		font-size: 32px;
 		margin-bottom: 12px; 
-		padding: 10px 0px 3px 0px; 
-	}
-	a:hover{
-		text-decoration: none; 
 	}
 	img{
-		width:100%;
+		width: 100%;
 		height: 350px;
 		padding: 5px; 
 		background-color: #53ADD6;
@@ -128,6 +137,8 @@ body{
 	color: black;
 	padding: 25px 50px; 
 	opacity: 0.85;
+    @include border-radius;
+	overflow: scroll;
 	p{
 		line-height: 1.8;
 		font-size: 16px;
@@ -137,7 +148,7 @@ body{
 .ueber_uns_foto{
 	text-align: center; 
 	img{
-		width:100%;
+		width: 100%;
 		padding: 5px; 
 		margin-bottom: 20px; 
 		background-color: #53ADD6;		
@@ -153,7 +164,7 @@ body{
 /* KONTAKT */ 
 
 #kontakt_heading{
-	color: #171B1C; 
+	color: $color_of_page_title; 
 	line-height: 1.2;
 	font-size: 43px; 	
 	padding-bottom: 10px;
@@ -167,6 +178,8 @@ body{
 	background-color: #D0D0D0; 
 	opacity: 0.85;
 	color: black;
+    @include border-radius;
+	overflow: scroll;
 	p{
 		font-size: 19px;
 		font-weight: bold; 
@@ -186,9 +199,8 @@ body{
 	width: 72%; 
 	margin: 0 14% 0 14%; 
 	padding: 55px 8px 65px 8px; 
-	border-radius: 4px;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
+    @include border-radius;
+	overflow: scroll;
 		h3{
 			font-size: 28px;
 			margin-top: 0px;
@@ -224,7 +236,7 @@ body{
 		color: white; 
 	}
 	#sylt{
-		color: #212F34; 	
+		color: $color_of_page_title; 	
 	}
 }
 
@@ -241,12 +253,11 @@ body{
 .wohnungs_beschreibung{
 	height: 350px;
 	padding: 12px 0px 0px 40px; 
-	background-color: #DDDDDD;
+	background-color: $text_box_background;
 	opacity: 0.98; 
-	color: #212225; 
-	border-radius: 3px;	
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
+	color: $color_of_page_title; 
+    @include border-radius;
+	overflow: scroll;
 	h2{
 		font-size: 37px;
 		padding-bottom: 3px;	
@@ -267,11 +278,11 @@ body{
 /* FERIENWOHNUNGS SPEZIFISCH */ 
 
 .spezifische_wohnungsbeschreibung{
-	background-color: #DDDDDD;
+	background-color: $text_box_background;
 	opacity: 0.98; 
 	height: 350px;	
 	padding: 12px 0px 0px 40px; 
-	color: #212225; 
+	color: $color_of_page_title; 
     @include border-radius;
 	overflow: scroll;
 	p{
@@ -293,11 +304,11 @@ body{
 }
 
 .prices{
-	background-color: #DDDDDD;
+	background-color: $text_box_background;
 	opacity: 0.98; 
 	height: 470px;	
 	padding: 10px 35px 30px 35px;
-	color: #212225; 
+	color: $color_of_page_title; 
 	font-size: 26px; 
     @include border-radius;
 	overflow: scroll;
@@ -327,13 +338,13 @@ body{
 }
 
 .einrichtung{
-	background-color: #DDDDDD;
+	background-color: $text_box_background;
 	opacity: 0.98; 
 	height: 470px;	    
 	padding: 10px 40px 30px 35px;
-	color: #212225; 
-	overflow: scroll;
+	color: $color_of_page_title; 
 	@include border-radius; 
+	overflow: scroll;
 	h2{
 		padding-bottom: 3px; 
 		font-size: 26px; 
@@ -345,13 +356,13 @@ body{
 }
 
 .kundenmeinungen{
-	background-color: #DDDDDD;
-	height: 470px;
-	color: #212225; 
-	padding: 10px 40px 30px 35px;
+	background-color: $text_box_background;
 	opacity: 0.98; 
-    overflow: scroll;
+	height: 470px;
+	color: $color_of_page_title; 
+	padding: 10px 40px 30px 35px;
     @include border-radius;
+    overflow: scroll;
 }
 
 
