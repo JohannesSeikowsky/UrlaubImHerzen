@@ -1,21 +1,23 @@
-<div class="row-fluid">
+<div class="container-fluid">
+    	
+    <h2 id="page_title"> Schön, dass Sie uns gefunden haben </h2>
 
-	<h1 id="page_title"> Schön, dass Sie uns gefunden haben. </h1> 
-		
-	<div class="span5 offset1 home_picture">
-		<a href="<%= ferienwohnungen_sylt_path %>">
-			<h2> Ferienwohnungen auf Sylt </h2> 
-			<div class="boxcontainer">
-				<%= image_tag("Sylt.jpeg", alt: "Der Westerländer Strand im Sommer") %> 
-			</div>					
-		</a> 
-	</div>
+    <div class="row-fluid">
+		<div class="span5 offset1 home_picture">
+			<a href="<%= ferienwohnungen_sylt_path %>">
+				<h2> Ferienwohnungen auf Sylt </h2> 
+				<div class="boxcontainer">
+					<%= image_tag("Sylt.jpeg", alt: "Der Westerländer Strand im Sommer") %> 
+				</div>					
+			</a> 
+		</div>
 
-	<div class="span5 home_picture">
-		<a href="<%= ferienwohnungen_husum_path %>">	
-			<h2> Ferienwohnungen in Husum </h2> 
-			<%= image_tag("Husum.jpg", alt: "Der Husumer Hafen in seiner vollen Schönheit") %> 
-		</a> 
-	</div>
+		<div class="span5 home_picture">
+			<a href="<%= ferienwohnungen_husum_path %>">	
+				<h2> Ferienwohnungen in Husum </h2> 
+				<%= image_tag("Husum.jpg", alt: "Der Husumer Hafen in seiner vollen Schönheit") %> 
+			</a> 
+		</div>
 
+	</div> 
 </div> 
