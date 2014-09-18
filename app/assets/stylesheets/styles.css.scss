@@ -81,32 +81,41 @@ a:hover{
 
 
 
-
 /* FOOTER */ 
 
 .footer{
 	background-color: #4C9ABF; 
-    opacity: 0.85;
 	margin-top: 135px;
-	.kontakt_box{
-		color: black; 
-		background-color: #4C9ABF; 
-		padding: 30px 0px 60px 0px;  
-		overflow: scroll;
-		h2{
-			font-size: 35px;
-			padding-top: 13px 0px 10px 0px; 
+    opacity: 0.85;
+    .kontakt_box_container{
+    	width: 56%; 
+    	margin: 0px auto; 
+		.kontakt_box{
+			color: black; 
+			background-color: #4C9ABF; 
+			margin: 0px;
+			padding: 0px; 
+			h2{
+				font-size: 35px;
+				padding-top: 39px; 
+				padding-bottom: 10px;
+			}
+			h4{
+				font-size: 21px;
+				padding-bottom: 1px;
+			}
+			a{
+				color: #E4E4E4;
+			}
 		}
-		h4{
-			font-size: 21px;
-			padding-bottom: 1px;
-		}
-		a{
-			color: #E4E4E4;
-		}
-	}
+		#sylt{
+    		float: left; 
+    	}	
+    	#husum{
+    		float: right; 
+   		}
+    }
 }
-
 
 
 
@@ -166,7 +175,7 @@ a:hover{
 	color: $color_of_page_title; 
 	line-height: 1.2;
 	font-size: 43px; 	
-	padding-bottom: 10px;
+	padding-bottom: 12px;
 	text-align: center; 	
 }
 
