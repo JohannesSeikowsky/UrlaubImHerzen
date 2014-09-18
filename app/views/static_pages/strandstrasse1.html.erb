@@ -1,3 +1,11 @@
+    <!-- initializng prettyPhoto -->
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function(){
+        $("a[rel^='prettyPhoto']").prettyPhoto();
+      });
+    </script>
+
+
 <div class="container-fluid">
 
 	<div class="row-fluid">
@@ -9,31 +17,31 @@
 			<div id="myCarousel" class="carousel slide" style="max-width:100%;">
 				<div class="carousel-inner">
 					<div class="active item">
-						<%= image_tag("strandstrasse1.JPG") %> 
+						<%= image_tag("strandstraße1.JPG") %> 
 						<div class="carousel-caption">
 							<h4> Wohnung Austernfischer in Westerland auf Sylt</h4>
 						</div>
 					</div>
 					<div class="item">
-						<%= image_tag("strandstrasse1.JPG") %> 
+						<%= image_tag("strandstraße1.JPG") %> 
 					</div>
 					<div class="item">
-						<%= image_tag("strandstrasse1.JPG") %> 
+						<%= image_tag("strandstraße1.JPG") %> 
 					</div>
 					<div class="item">
-						<%= image_tag("strandstrasse1.JPG") %> 
+						<%= image_tag("strandstraße1.JPG") %> 
 					</div>					
 					<div class="item">
-						<%= image_tag("strandstrasse1.JPG") %> 
+						<%= image_tag("strandstraße1.JPG") %> 
 					</div>
 					<div class="item">
-						<%= image_tag("strandstrasse1.JPG") %> 
+						<%= image_tag("strandstraße1.JPG") %> 
 					</div>		
 					<div class="item">
-						<%= image_tag("strandstrasse1.JPG") %> 
+						<%= image_tag("strandstraße1.JPG") %> 
 					</div>
 					<div class="item">
-						<%= image_tag("strandstrasse1.JPG") %> 
+						<%= image_tag("strandstraße1.JPG") %> 
 					</div>		
 				</div>
 				<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
@@ -51,34 +59,24 @@
 	</div>
 
 
-
-
 	<!-- PART 2: MINIFOTOS -->
 
 	<div class="row-fluid">
-		<div class="span3 small_images_container">
-			<a data-gal="prettyPhoto[gallery1]" href="<%= image_path("strandstraße1.JPG") %>" title="strandstrasse1">
-				<%= image_tag("strandstrasse1.JPG") %> 
-			</a>
-		</div>
 
-		<div class="span3 small_images_container">
-			<a data-gal="prettyPhoto[gallery1]" href="<%= image_path("strandstraße1.JPG") %>" title="strandstrasse1">
-				<%= image_tag("strandstrasse1.JPG") %> 
-			</a>
-		</div>
+	<a href=<%= image_path("strandstraße1.JPG") %> rel="prettyPhoto[pp_gal]">
+		<p> bla </p> 
+	</a>
 
-		<div class="span3 small_images_container">
-			<a data-gal="prettyPhoto[gallery1]" href="<%= image_path("strandstraße1.JPG") %>" title="strandstrasse1">
-				<%= image_tag("strandstrasse1.JPG") %> 
-			</a>
-		</div>
+	<a href=<%= image_path("strandstraße1.JPG") %> rel="prettyPhoto[pp_gal]">
+	</a>
 
-		<div class="span3 small_images_container">
-			<a data-gal="prettyPhoto[gallery1]" href="<%= image_path("strandstraße1.JPG") %>" title="strandstrasse1">
-				<%= image_tag("strandstrasse1.JPG") %> 
-			</a>
-		</div>
+	<a href=<%= image_path("strandstraße1.JPG") %> rel="prettyPhoto[pp_gal]">
+	</a>
+
+	<a href=<%= image_path("strandstraße1.JPG") %> rel="prettyPhoto[pp_gal]">
+	</a>
+
+
 	</div>
 	<br>
 	<br>
@@ -168,3 +166,7 @@
 	</div>
 	</div>
 </div>
+
+
+
+

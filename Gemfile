@@ -30,6 +30,9 @@ gem 'rails-html-sanitizer', '~> 1.0'
 # Use Bootstrap for Front-End
 gem 'bootstrap-sass', '2.2.2'
 
+# Lightbox substitute 
+gem 'prettyphoto-rails', '~> 0.2.1'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 group :production do

@@ -13,5 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
+//= require jquery.prettyPhoto
 //= require turbolinks
 //= require_tree .
+
