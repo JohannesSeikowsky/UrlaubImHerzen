@@ -25,24 +25,24 @@ end
 
 
 # Husum image paths 
-def rosenstraße1_image(path)
-	@path = path 
-	"https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/Wohnungen/Husum/Dat+lu%CC%88tte+Huus+1+OG/Dat-lu%CC%88tte-Huus-1-OG-#{path}.jpg"
-end
-
-def rosenstraße2_image(path)
-	@path = path 
-	"https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/Wohnungen/Sylt/Strandstrasse+Oben/Strandstrasse-Oben-#{path}.jpg"
-end
-
 def woldsenstraße1_image(path)
 	@path = path 
-	"https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/Wohnungen/Sylt/Strandstrasse+Oben/Strandstrasse-Oben-#{path}.jpg"
+	"https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/Wohnungen/Husum/woldsenstrasse1/Austernfischer-#{path}.jpg"
 end
 
 def woldsenstraße2_image(path)
 	@path = path 
-	"https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/Wohnungen/Sylt/Strandstrasse+Oben/Strandstrasse-Oben-#{path}.jpg"
+	"https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/Wohnungen/Husum/woldsenstrasse2/Kleiner-Austernfischer-#{path}.jpg"
+end
+
+def rosenstraße1_image(path)
+	@path = path 
+	"https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/Wohnungen/Husum/rosenstrasse1/#{path}.jpg"
+end
+
+def rosenstraße2_image(path)
+	@path = path 
+	"https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/Wohnungen/Husum/rosenstrasse2/Dat-lu%CC%88tte-Huus-EG-#{path}.jpg"
 end
 
 end
