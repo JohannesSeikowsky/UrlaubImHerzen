@@ -86,10 +86,7 @@ a:hover{
 	margin-top: 135px;
     opacity: 0.85;
     .kontakt_box_container{
-    	width: 56%; 
-    	margin: 0px auto; 
 		.kontakt_box{
-			width: 50%; 
 			color: black; 
 			background-color: #4C9ABF; 
 			margin: 0px;
@@ -107,12 +104,6 @@ a:hover{
 				color: #E4E4E4;
 			}
 		}
-		#sylt{
-    		float: left; 
-    	}	
-    	#husum{
-    		float: right; 
-   		}
     }
 }
 
@@ -383,11 +374,9 @@ a:hover{
 	margin-bottom:20px;
 	position:relative;
 	z-index:0;
-}
-
-.boxportfolio2.fixed img {
-	width:100%;
-	height: 350px;
+	#myCarousel{
+		border: 5px solid #53ADD6;
+	}
 }
 
 
