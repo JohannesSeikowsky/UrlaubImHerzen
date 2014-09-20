@@ -85,26 +85,22 @@ a:hover{
 	background-color: #4C9ABF; 
 	margin-top: 135px;
     opacity: 0.85;
-    .kontakt_box_container{
-		.kontakt_box{
-			color: black; 
-			background-color: #4C9ABF; 
-			margin: 0px;
-			padding: 0px; 
-			h2{
-				font-size: 35px;
-				padding-top: 39px; 
-				padding-bottom: 10px;
-			}
-			h4{
-				font-size: 21px;
-				padding-bottom: 1px;
-			}
-			a{
-				color: #E4E4E4;
-			}
+	.kontakt_box{
+		color: black; 
+		background-color: #4C9ABF; 
+		h2{
+			font-size: 35px;
+			padding-top: 13px; 
+			padding-bottom: 10px;
 		}
-    }
+		h4{
+			font-size: 21px;
+			padding-bottom: 1px;
+		}
+		a{
+			color: #E4E4E4;
+		}
+	}
 }
 
 
