@@ -61,7 +61,7 @@ a:hover{
 			float: left; 
 			text-align: center; 
 			height: 125px;
-			overflow: scroll;
+			overflow: hidden;
 			h3{
 				color: white; 
 				font-size: 23px;
@@ -132,7 +132,7 @@ a:hover{
 	padding: 25px 50px; 
 	opacity: 0.85;
     @include border-radius;
-	overflow: scroll;
+	overflow: hidden;
 	p{
 		line-height: 1.8;
 		font-size: 16px;
@@ -173,7 +173,7 @@ a:hover{
 	opacity: 0.85;
 	color: black;
     @include border-radius;
-	overflow: scroll;
+	overflow: hidden;
 	p{
 		font-size: 19px;
 		font-weight: bold; 
@@ -194,7 +194,7 @@ a:hover{
 	margin: 0 14% 0 14%; 
 	padding: 55px 8px 65px 8px; 
     @include border-radius;
-	overflow: scroll;
+	overflow: hidden;
 		h3{
 			font-size: 28px;
 			margin-top: 0px;
@@ -251,7 +251,7 @@ a:hover{
 	opacity: 0.98; 
 	color: $color_of_page_title; 
     @include border-radius;
-	overflow: scroll;
+	overflow: hidden;
 	h2{
 		font-size: 37px;
 		padding-bottom: 3px;	
@@ -278,7 +278,7 @@ a:hover{
 	padding: 12px 0px 0px 40px; 
 	color: $color_of_page_title; 
     @include border-radius;
-	overflow: scroll;
+	overflow: hidden;
 	p{
 		padding: 0px 30px 20px 10px;
 		font-size: 16px;
@@ -323,7 +323,7 @@ a:hover{
 	color: $color_of_page_title; 
 	font-size: 26px; 
     @include border-radius;
-	overflow: scroll;
+	overflow: hidden;
 	table{
 		width: 95%;
 		height: 70%;
@@ -356,7 +356,7 @@ a:hover{
 	padding: 10px 40px 30px 35px;
 	color: $color_of_page_title; 
 	@include border-radius; 
-	overflow: scroll;
+	overflow: hidden;
 	h2{
 		padding-bottom: 3px; 
 		font-size: 26px; 
@@ -374,7 +374,7 @@ a:hover{
 	color: $color_of_page_title; 
 	padding: 10px 40px 30px 35px;
     @include border-radius;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 
