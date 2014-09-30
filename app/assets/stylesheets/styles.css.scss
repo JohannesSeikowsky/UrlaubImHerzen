@@ -277,7 +277,7 @@ a:hover{
 	height: 350px;	
 	padding: 12px 0px 0px 40px; 
 	color: $color_of_page_title; 
-    @include border-radius;
+  @include border-radius;
 	overflow: hidden;
 	p{
 		padding: 0px 30px 20px 10px;
