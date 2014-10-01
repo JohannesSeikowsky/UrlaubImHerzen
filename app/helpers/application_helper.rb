@@ -3,9 +3,8 @@ module ApplicationHelper
 	# General image paths
 	def s3_image(path)
 		@path = path 
-		"https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/Wohnungen/#{path}"
+		"https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/General/#{path}"
 	end
-
 
 	# Strandstrasse1 
 	def strandstraße1_image(path)
