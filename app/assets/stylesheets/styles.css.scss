@@ -2,7 +2,7 @@
 @import 'bootstrap-responsive';
 
 
-/* SASS SETTINGS */ 
+/* GENERAL */ 
 
 @mixin border-radius{
 	border-radius: 4px;
@@ -12,19 +12,6 @@
 
 $color_of_page_title: #171B1C;
 $text_box_background: #DDDDDD;
-
-
-/* GENERAL */ 
-
-body{
-	background: url("https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/General/background.JPG") no-repeat center center fixed;
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-   	font-family: Arial;
-   	width: 100%;
-}
 
 #page_title{
 	color: $color_of_page_title; 
@@ -39,21 +26,33 @@ a:hover{
 }
 
 
+/* BDOY */ 
+
+body{
+	background: url("https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/General/background.JPG") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 	font-family: Arial;
+}
+
+
+
+
 
 /* HEADER */ 
 
 .header{
 	background-color: #4C849B; 
 	border-top: 6px solid #EC992C;
-	padding: 0px 7.5% 0px 7.5%;
 	height: 125px; 
+	padding: 0px 7.5%;
 	margin-bottom: 50px; 
 		.logo{
-			width: 30%; 
-			float: left; 
 			img{
-				margin-top: 2.5px;
 				height: 120px;
+				width: auto; 
 			}		
 		}
 		.part_of_header{
