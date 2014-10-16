@@ -1,6 +1,3 @@
-@import 'bootstrap';
-@import 'bootstrap-responsive';
-
 $color_of_page_title: #171B1C;
 $text_box_background: #DDDDDD;
 
@@ -163,9 +160,11 @@ body{
 	}
 }
 
-.gäste{
+.meinungen{
 	margin-top: 45px; 
 	img{
+		width: 100%; 
+		height: auto; 
 		margin-bottom: 35px; 
 	}
 }
@@ -234,51 +233,58 @@ body{
 /* AUFLISTUNGEN VON FERIENWOHNUNGS  */ 
 
 .ferienwohnungen_heading{
-	h1{
 		font-size: 49px; 	
 		padding-bottom: 45px; 
 		text-align: center; 
-	}	
-	#husum{
-		color: white; 
-	}
-	#sylt{
-		color: $color_of_page_title; 	
-	}
+}
+#sylt{
+	color: $color_of_page_title; 	
+}
+#husum{
+	color: white; 	
 }
 
-.wohnungs_picture{
-	padding: 5px; 
-	background-color: #53ADD6;
-	border: none; 
-	img{
-		width: 100%;
-		height: 345px;	
+
+.wohnung{
+	margin-bottom: 35px; 
+	position: relative; 
+	.image{
+		img{
+			width: 100%;
+			height: 350px;	
+			border: 5px solid #53ADD6; 
+		}
+	}
+	.description{
+		height: 350px;
+		background-color: $text_box_background;
+		opacity: 0.98; 
+		padding: 12px 0px 0px 40px; 
+		color: $color_of_page_title; 
+	  @include border-radius;
+		h2{
+			font-size: 35px;
+			padding-bottom: 3px;	
+		}
+		ul{
+			padding-bottom: 12px;
+		}
+		li{
+			font-size: 18px;
+			padding-bottom: 4px;
+			font-weight: bold;
+		}
+		a{
+			padding: 25px; 
+			position: absolute; 
+			bottom: 0; 
+			right: 0; 
+			border-radius: 0px; 
+			-moz-border-radius: 0px; 
+			-webkit-border-radius: 0px; 
+		}
 	}
 }
-
-.wohnungs_beschreibung{
-	height: 350px;
-	padding: 12px 0px 0px 40px; 
-	background-color: $text_box_background;
-	opacity: 0.98; 
-	color: $color_of_page_title; 
-    @include border-radius;
-	overflow: hidden;
-	h2{
-		font-size: 37px;
-		padding-bottom: 3px;	
-	}
-	ul{
-		padding-bottom: 12px;
-	}
-	li{
-		font-size: 18px;
-		padding-bottom: 4px;
-		font-weight: bold;
-	}
-}
-
 
 
 
