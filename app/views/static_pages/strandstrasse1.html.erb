@@ -42,58 +42,60 @@
 					<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
 					<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 				</div>
-				<%= link_to "ALLE PHOTOS IN GROSS ANSCHAUN", strandstrasse1_path, class: "btn btn-large btn-primary" %>  
-				<%= link_to "ZUR BUCHUNG", strandstrasse1_path, class: "btn btn-large btn-primary" %>  
+				<br>
+				<br>
+				<div class="fotolink">
+					<%= link_to "ALLE PHOTOS IN GROSS ANSCHAUN", strandstrasse1_path, class: "btn btn-large btn-primary", id: "fotolink" %>  
+				</div>
+				<br>
+				<br>
+
+				<div class="prices">
+					<table>
+						<tr>
+						  <td><strong> Unsere Preise </strong></td>
+						  <td class="align_center"><strong> Erste Nacht </strong></td>
+						  <td class="align_center"><strong> Folgenächte </strong></td>		
+						</tr>
+						<tr> 
+							<td> Hauptsaison: </td> 
+							<td class="align_center"> 176 € </td> 
+							<td class="align_center"> 99 € </td> 
+						</tr> 
+						<tr> 
+							<td> Nebensaison: </td> 
+							<td class="align_center"> 160 €</td> 
+							<td class="align_center"> 79 € </td> 
+						</tr> 
+						<tr> 
+							<td> Zwischensaison: </td> 
+							<td class="align_center"> 150 €</td> 
+							<td class="align_center"> 69 €</td> 
+						</tr> 
+					</table>
+					<div class="text">
+						<p>Hauptsaison: <strong>20.12.14 - 04.01.15</strong>  und  <strong>29.06.15 - 06.09.15</strong> und  <strong>21.12.15 - 03.01.16</strong></p>
+						<p>Nebensaison: <strong>08.09.14 - 31.10.14</strong>  und <strong>23.03.15 - 12.04.15</strong>  und <strong>27.04.15 - 28.06.15</strong> und <strong>07.09.15 - 01.11.15</strong> </p>
+						<p>Zwischensaison: <strong>01.11.14 - 19.12.14</strong> und <strong>05.01.15 - 22.03.15</strong> und <strong>13.04.15 - 26.04.15</strong> und <strong>02.11.15 - 20.12.15</strong></p>
+						<h4>*Preise gelten für 2 Personen. Jede weitere Erwachsene Person 10 € / Tag.</h4>	
+					</div>
+				</div> 
+				<br>
+				<br>
+
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2293.6431238392993!2d8.303053399999998!3d54.909185799999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b4de8d553d07f3%3A0x3d2f9a03dd4baf6b!2sStrandstra%C3%9Fe+14%2C+25980!5e0!3m2!1sde!2sde!4v1410298837893" width="100%" height="470"></iframe>
+
+			<!-- Closing the col -->
 			</div>
 
 			<div class="col-xs-4 spezifische_wohnungsbeschreibung">
+				<%= link_to "ZUM BELEGUNGSKALENDER UND BUCHEN", strandstrasse1_path, class: "btn btn-large btn-warning" %>  
 				<h2> „Möwennest“ </h2> 
 				<p>
 					Wenn Sie mitten im im Zentrum wohnen möchten sind Sie in dieser gemütlichen, sehr zentralen, strandnahen Wohnung richtig. Sie befindet sich im 1. Stock des Vorderhauses der Strandstraße 14. Diese Wohnung ist super geeignet für Paare mit einem Kind bis ca. 10 Jahren. Sie verfügt über einen großen Wohnraum mit Essecke. Von hier aus schauen Sie direkt in die Fußgängerzone „Neue Straße“. Das Schlafzimmer hat ein Doppelbett (180 x 200) und eine Schlafnische mit einem Bett (90 x200), welche durch eine Schiebetür abgetrennt wird. In dieser Wohnung sind das WC und das Duschbad getrennt. Die gut eingerichtete Küche befindet sich im Durchgangsflur. Eine Waschmaschine für unsere Feriengäste befindet sich im Hauswirtschaftsraum auf Ihrer Etage. Zu dieser Wohnung gehört ein PKW-Stellplatz auf unserem eigenem Parkplatz, welcher ausgeschilder ist. Gerne stellen wir Ihnen ein WLAN Netz zur Verfügung, welches Sie kostenfrei nutzen können.
 				</p> 
-				<%= link_to "ZUM BELEGUNGSKALENDER UND BUCHEN", strandstrasse1_path, class: "btn btn-large btn-warning" %>  
 				<hr>
-			</div>
-		</div>
-
-		<!-- PREISE -->
-		<div class="row">
-			<div class="col-xs-8">
-				<div class="prices">
-				<table>
-					<tr>
-					  <td><strong> Unsere Preise </strong></td>
-					  <td class="align_center"><strong> Erste Nacht </strong></td>
-					  <td class="align_center"><strong> Folgenächte </strong></td>		
-					</tr>
-					<tr> 
-						<td> Hauptsaison: </td> 
-						<td class="align_center"> 176 € </td> 
-						<td class="align_center"> 99 € </td> 
-					</tr> 
-					<tr> 
-						<td> Nebensaison: </td> 
-						<td class="align_center"> 160 €</td> 
-						<td class="align_center"> 79 € </td> 
-					</tr> 
-					<tr> 
-						<td> Zwischensaison: </td> 
-						<td class="align_center"> 150 €</td> 
-						<td class="align_center"> 69 €</td> 
-					</tr> 
-				</table>
-				<div class="text">
-					<p>Hauptsaison: <strong>20.12.14 - 04.01.15</strong>  und  <strong>29.06.15 - 06.09.15</strong> und  <strong>21.12.15 - 03.01.16</strong></p>
-					<p>Nebensaison: <strong>08.09.14 - 31.10.14</strong>  und <strong>23.03.15 - 12.04.15</strong>  und <strong>27.04.15 - 28.06.15</strong> und <strong>07.09.15 - 01.11.15</strong> </p>
-					<p>Zwischensaison: <strong>01.11.14 - 19.12.14</strong> und <strong>05.01.15 - 22.03.15</strong> und <strong>13.04.15 - 26.04.15</strong> und <strong>02.11.15 - 20.12.15</strong></p>
-					<h4>*Preise gelten für 2 Personen. Jede weitere Erwachsene Person 10 € / Tag.</h4>	
-				</div>
-
-			</div> 
-			</div> 
-
-			<div class="col-xs-4 einrichtung">
-					<h2> Einrichtung  </h2> 
+				<h3> Einrichtung  </h3> 
 					<p>
 						<strong>Küche:</strong> 4 Platten Ceranfeld, Backofen, Mikrowelle, Kühlschrank mit Gefrierfach, Geschirrspüler, Kaffeemaschine, Toaster, Espressomaschine, Wasserkocher <br><br>
 						<strong>Badezimmer:</strong> Föhn, Duschbad, Separates WC <br>
@@ -101,14 +103,7 @@
 						<strong>Schlafzimmer:</strong> Doppelbett (180*200), Ausziehsessel, TV, Extra Schlafnische (90*200) <br><br>	
 						<strong>Sonstiges:</strong> Parkplatz, WLAN, Haustiere auf Anfrage, Waschmaschine im HWR, Staubsauger, Nichtraucher, In der Fußgängerzone <br>			
 					</p> 
-			</div> 	
-		</div>
-		<br>
-		<br> 
-		<!-- MAP -->
-		<div class="row">
-			<div class="col-xs-8">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2293.6431238392993!2d8.303053399999998!3d54.909185799999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b4de8d553d07f3%3A0x3d2f9a03dd4baf6b!2sStrandstra%C3%9Fe+14%2C+25980!5e0!3m2!1sde!2sde!4v1410298837893" width="100%" height="470"></iframe>
+					<br>
 			</div>
 		</div>
 

@@ -306,9 +306,13 @@ body{
   position: relative; 
   h2{
 		padding-top: 45px; 
+		padding-left: 15px; 
+  }
+  h3{
+		padding-left: 15px;   
   }
 	p{
-		padding: 0px 30px 20px 10px;
+		padding: 0px 15px 5px 15px;
 		font-size: 16px;
 		line-height: 1.4;
 	}
@@ -321,6 +325,15 @@ body{
 	 margin-bottom: 300px; 
 	 display: block; 
 	}
+}
+
+.fotolink{
+	text-align: center; 
+}
+
+#fotolink{
+	padding: 16px 95px; 
+	font-size: 15px; 
 }
 
 .small_images_container{
