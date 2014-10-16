@@ -54,6 +54,11 @@ body{
 					color: #EC992C; 
 				}
 			}
+			@media (max-width: 1200px) {
+				li{
+						font-size: 18px; 
+				}
+			}
 		}
 	}
 
@@ -95,6 +100,13 @@ body{
 	line-height: 1.15; 
 }
 
+@media (max-width: 930px){
+	#page_title{
+		font-size: 35px; 	
+	}
+}
+
+
 .home_picture{
 	h2{
 		text-align: center; 
@@ -116,54 +128,61 @@ body{
 
 /* ÜBER UNS */ 
 
-.ueber_uns_text{
-	background-color: #D0D0D0; 
-	color: black;
-	padding: 25px 50px; 
-	opacity: 0.85;
-    @include border-radius;
-	overflow: hidden;
-	p{
-		line-height: 1.8;
-		font-size: 16px;
+.ueber_uns{
+		margin-bottom: 20px; 
+		.text{
+			background-color: #D0D0D0; 
+			opacity: 0.85;
+			color: black;
+			padding: 25px 50px; 
+		  @include border-radius;
+			p{
+				line-height: 1.65;
+				font-size: 16px;
+			}	
+		}
+		.image{
+			text-align: center; 
+			img{
+				width: 100%;
+				padding: 5px; 
+				margin-bottom: 20px; 
+				background-color: #53ADD6;		
+			}
+			a{
+				margin-bottom: 25px; 
+			}
+		}
+	}
+
+@media (max-width: 970px){
+	.ueber_uns{
+		.text{
+			margin-bottom: 35px; 
+		}
 	}
 }
 
-.ueber_uns_foto{
-	text-align: center; 
+.gäste{
 	img{
-		width: 100%;
-		padding: 5px; 
-		margin-bottom: 20px; 
-		background-color: #53ADD6;		
-	}
-	a{
-		margin-bottom: 25px; 
+		margin-bottom: 35px; 
 	}
 }
+
+
 
 
 
 
 /* KONTAKT */ 
 
-#kontakt_heading{
-	color: $color_of_page_title; 
-	line-height: 1.2;
-	font-size: 43px; 	
-	padding-bottom: 12px;
-	text-align: center; 	
-}
-
-.kontakt_box{
-	padding: 20px 40px 70px 60px; 
-	margin-top: 10px; 
-	height: 340px;
+.kontakt{
 	background-color: #D0D0D0; 
+	height: 340px;
 	opacity: 0.85;
+	padding: 20px 40px 70px 60px; 
 	color: black;
-    @include border-radius;
-	overflow: hidden;
+  @include border-radius;
 	p{
 		font-size: 19px;
 		font-weight: bold; 
@@ -171,6 +190,13 @@ body{
 	}
 }
 
+@media (max-width: 900px){
+	.kontakt{
+		a{
+			font-size: 16px;
+		}
+	}
+}
 
 
 
