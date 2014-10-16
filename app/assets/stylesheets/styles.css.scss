@@ -168,14 +168,6 @@ body{
 		}
 	}
 
-@media (max-width: 975px){
-	.ueber_uns{
-		.text{
-			margin-bottom: 35px; 
-		}
-	}
-}
-
 .meinungen{
 	margin-top: 45px; 
 	img{
@@ -246,7 +238,7 @@ body{
 
 
 
-/* AUFLISTUNGEN VON FERIENWOHNUNGS  */ 
+/* ALLE FERIENWOHNUNGEN  */ 
 
 .ferienwohnungen_heading{
 		font-size: 49px; 	
@@ -259,7 +251,6 @@ body{
 #husum{
 	color: white; 	
 }
-
 
 .wohnung{
 	margin-bottom: 35px; 
@@ -309,15 +300,26 @@ body{
 .spezifische_wohnungsbeschreibung{
 	background-color: $text_box_background;
 	opacity: 0.98; 
-	height: 550px;	
 	padding: 12px 0px 0px 40px; 
 	color: $color_of_page_title; 
   @include border-radius;
-	overflow: hidden;
+  position: relative; 
+  h2{
+		padding-top: 45px; 
+  }
 	p{
 		padding: 0px 30px 20px 10px;
 		font-size: 16px;
 		line-height: 1.4;
+	}
+	a{
+	 position: absolute; 
+	 top: 0; 
+	 left: 0; 
+	 right: 0; 
+	 padding: 15px 0; 
+	 margin-bottom: 300px; 
+	 display: block; 
 	}
 }
 
@@ -404,9 +406,8 @@ body{
 	background-color: $text_box_background;
 	opacity: 0.98; 
 	height: 470px;	    
-	padding: 10px 40px 30px 35px;
+	padding: 0 40px 30px 35px;
 	color: $color_of_page_title; 
-	@include border-radius; 
 	overflow: hidden;
 	h2{
 		padding-bottom: 3px; 
