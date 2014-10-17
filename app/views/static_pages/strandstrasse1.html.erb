@@ -1,50 +1,16 @@
 <div class="row">
-	<div class="col-xs-10 col-xs-offset-1 ">
-		
+	<div class="col-xs-10 col-xs-offset-1">
+
 		<div class="row">
-			<div class="col-xs-8 boxportfolio2 fixed cat2">
-				<div id="myCarousel" class="carousel slide" style="max-width:100%;">
-					<div class="carousel-inner">
-						<div class="active item">
-								<%= image_tag(strandstraße1_image("1"), alt: "Wohnung Möwennest") %> 
-						</div>
-						<div class="item">
-							<%= image_tag(strandstraße1_image("2"), alt: "Wohnung Möwennest") %> 
-						</div>
-						<div class="item">
-							<%= image_tag(strandstraße1_image("3"), alt: "Wohnung Möwennest") %> 
-						</div>
-						<div class="item">
-							<%= image_tag(strandstraße1_image("4"), alt: "Wohnung Möwennest") %> 
-						</div>					
-						<div class="item">
-							<%= image_tag(strandstraße1_image("5"), alt: "Wohnung Möwennest") %> 
-						</div>
-						<div class="item">
-							<%= image_tag(strandstraße1_image("6"), alt: "Wohnung Möwennest") %> 
-						</div>		
-						<div class="item">
-							<%= image_tag(strandstraße1_image("7"), alt: "Wohnung Möwennest") %> 
-						</div>
-						<div class="item">
-							<%= image_tag(strandstraße1_image("8"), alt: "Wohnung Möwennest") %> 
-						</div>		
-						<div class="item">
-							<%= image_tag(strandstraße1_image("9"), alt: "Wohnung Möwennest") %> 
-						</div>					
-						<div class="item">
-							<%= image_tag(strandstraße1_image("10"), alt: "Wohnung Möwennest") %> 
-						</div>	
-						<div class="item">
-							<%= image_tag(strandstraße1_image("11"), alt: "Wohnung Möwennest") %> 
-						</div>	
-					</div>
-					<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-					<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+			<div class="col-xs-8">
+				<div class="big_photo">
+					<a href="<%= strandstraße1_image("1") %>" rel="prettyPhoto[wohnungsfotos]">
+		        <img src="<%= strandstraße1_image("1") %>" width="100%" height="auto" />
+		      </a> 
 				</div>
 
-				<div class="gallery">
-					<%= link_to "ALLE PHOTOS IN GROSS ANSCHAUN", strandstraße1_image("1"), class: "btn btn-large btn-primary", id: "gallery", rel: "prettyPhoto[wohnungsfotos]" %>  
+				<div class="gallery_link">
+					<%= link_to "ALLE PHOTOS IN GROSS ANSCHAUN", strandstraße1_image("1"), class: "btn btn-large btn-primary", id: "gallery_link", rel: "prettyPhoto[wohnungsfotos]" %>  
 				</div>
 
 				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2293.6431238392993!2d8.303053399999998!3d54.909185799999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b4de8d553d07f3%3A0x3d2f9a03dd4baf6b!2sStrandstra%C3%9Fe+14%2C+25980!5e0!3m2!1sde!2sde!4v1410298837893" width="100%" height="470"></iframe>
@@ -146,6 +112,8 @@
 				<%= image_tag(strandstraße1_image("11"), alt: "Wohnung Möwennest") %> 
 			</a> 
 		</div> 
+
+
 
 	<!-- Closing the Container Column and Row -->
 	</div>
