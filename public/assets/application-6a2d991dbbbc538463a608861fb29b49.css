@@ -1,0 +1,713 @@
+@charset "UTF-8";div.pp_default .pp_top,div.pp_default .pp_top .pp_middle,div.pp_default .pp_top .pp_left,div.pp_default .pp_top .pp_right,div.pp_default .pp_bottom,div.pp_default .pp_bottom .pp_left,div.pp_default .pp_bottom .pp_middle,div.pp_default .pp_bottom .pp_right{height:13px}
+div.pp_default .pp_top .pp_left{background:url(../images/prettyPhoto/default/sprite.png) -78px -93px no-repeat}
+div.pp_default .pp_top .pp_middle{background:url(../images/prettyPhoto/default/sprite_x.png) top left repeat-x}
+div.pp_default .pp_top .pp_right{background:url(../images/prettyPhoto/default/sprite.png) -112px -93px no-repeat}
+div.pp_default .pp_content .ppt{color:#f8f8f8}
+div.pp_default .pp_content_container .pp_left{background:url(../images/prettyPhoto/default/sprite_y.png) -7px 0 repeat-y;padding-left:13px}
+div.pp_default .pp_content_container .pp_right{background:url(../images/prettyPhoto/default/sprite_y.png) top right repeat-y;padding-right:13px}
+div.pp_default .pp_next:hover{background:url(../images/prettyPhoto/default/sprite_next.png) center right no-repeat;cursor:pointer}
+div.pp_default .pp_previous:hover{background:url(../images/prettyPhoto/default/sprite_prev.png) center left no-repeat;cursor:pointer}
+div.pp_default .pp_expand{background:url(../images/prettyPhoto/default/sprite.png) 0 -29px no-repeat;cursor:pointer;width:28px;height:28px}
+div.pp_default .pp_expand:hover{background:url(../images/prettyPhoto/default/sprite.png) 0 -56px no-repeat;cursor:pointer}
+div.pp_default .pp_contract{background:url(../images/prettyPhoto/default/sprite.png) 0 -84px no-repeat;cursor:pointer;width:28px;height:28px}
+div.pp_default .pp_contract:hover{background:url(../images/prettyPhoto/default/sprite.png) 0 -113px no-repeat;cursor:pointer}
+div.pp_default .pp_close{width:30px;height:30px;background:url(../images/prettyPhoto/default/sprite.png) 2px 1px no-repeat;cursor:pointer}
+div.pp_default .pp_gallery ul li a{background:url(../images/prettyPhoto/default/default_thumb.png) center center #f8f8f8;border:1px solid #aaa}
+div.pp_default .pp_social{margin-top:7px}
+div.pp_default .pp_gallery a.pp_arrow_previous,div.pp_default .pp_gallery a.pp_arrow_next{position:static;left:auto}
+div.pp_default .pp_nav .pp_play,div.pp_default .pp_nav .pp_pause{background:url(../images/prettyPhoto/default/sprite.png) -51px 1px no-repeat;height:30px;width:30px}
+div.pp_default .pp_nav .pp_pause{background-position:-51px -29px}
+div.pp_default a.pp_arrow_previous,div.pp_default a.pp_arrow_next{background:url(../images/prettyPhoto/default/sprite.png) -31px -3px no-repeat;height:20px;width:20px;margin:4px 0 0}
+div.pp_default a.pp_arrow_next{left:52px;background-position:-82px -3px}
+div.pp_default .pp_content_container .pp_details{margin-top:5px}
+div.pp_default .pp_nav{clear:none;height:30px;width:110px;position:relative}
+div.pp_default .pp_nav .currentTextHolder{font-family:Georgia;font-style:italic;color:#999;font-size:11px;left:75px;line-height:25px;position:absolute;top:2px;margin:0;padding:0 0 0 10px}
+div.pp_default .pp_close:hover,div.pp_default .pp_nav .pp_play:hover,div.pp_default .pp_nav .pp_pause:hover,div.pp_default .pp_arrow_next:hover,div.pp_default .pp_arrow_previous:hover{opacity:0.7}
+div.pp_default .pp_description{font-size:11px;font-weight:700;line-height:14px;margin:5px 50px 5px 0}
+div.pp_default .pp_bottom .pp_left{background:url(../images/prettyPhoto/default/sprite.png) -78px -127px no-repeat}
+div.pp_default .pp_bottom .pp_middle{background:url(../images/prettyPhoto/default/sprite_x.png) bottom left repeat-x}
+div.pp_default .pp_bottom .pp_right{background:url(../images/prettyPhoto/default/sprite.png) -112px -127px no-repeat}
+div.pp_default .pp_loaderIcon{background:url(../images/prettyPhoto/default/loader.gif) center center no-repeat}
+div.light_rounded .pp_top .pp_left{background:url(../images/prettyPhoto/light_rounded/sprite.png) -88px -53px no-repeat}
+div.light_rounded .pp_top .pp_right{background:url(../images/prettyPhoto/light_rounded/sprite.png) -110px -53px no-repeat}
+div.light_rounded .pp_next:hover{background:url(../images/prettyPhoto/light_rounded/btnNext.png) center right no-repeat;cursor:pointer}
+div.light_rounded .pp_previous:hover{background:url(../images/prettyPhoto/light_rounded/btnPrevious.png) center left no-repeat;cursor:pointer}
+div.light_rounded .pp_expand{background:url(../images/prettyPhoto/light_rounded/sprite.png) -31px -26px no-repeat;cursor:pointer}
+div.light_rounded .pp_expand:hover{background:url(../images/prettyPhoto/light_rounded/sprite.png) -31px -47px no-repeat;cursor:pointer}
+div.light_rounded .pp_contract{background:url(../images/prettyPhoto/light_rounded/sprite.png) 0 -26px no-repeat;cursor:pointer}
+div.light_rounded .pp_contract:hover{background:url(../images/prettyPhoto/light_rounded/sprite.png) 0 -47px no-repeat;cursor:pointer}
+div.light_rounded .pp_close{width:75px;height:22px;background:url(../images/prettyPhoto/light_rounded/sprite.png) -1px -1px no-repeat;cursor:pointer}
+div.light_rounded .pp_nav .pp_play{background:url(../images/prettyPhoto/light_rounded/sprite.png) -1px -100px no-repeat;height:15px;width:14px}
+div.light_rounded .pp_nav .pp_pause{background:url(../images/prettyPhoto/light_rounded/sprite.png) -24px -100px no-repeat;height:15px;width:14px}
+div.light_rounded .pp_arrow_previous{background:url(../images/prettyPhoto/light_rounded/sprite.png) 0 -71px no-repeat}
+div.light_rounded .pp_arrow_next{background:url(../images/prettyPhoto/light_rounded/sprite.png) -22px -71px no-repeat}
+div.light_rounded .pp_bottom .pp_left{background:url(../images/prettyPhoto/light_rounded/sprite.png) -88px -80px no-repeat}
+div.light_rounded .pp_bottom .pp_right{background:url(../images/prettyPhoto/light_rounded/sprite.png) -110px -80px no-repeat}
+div.dark_rounded .pp_top .pp_left{background:url(../images/prettyPhoto/dark_rounded/sprite.png) -88px -53px no-repeat}
+div.dark_rounded .pp_top .pp_right{background:url(../images/prettyPhoto/dark_rounded/sprite.png) -110px -53px no-repeat}
+div.dark_rounded .pp_content_container .pp_left{background:url(../images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat-y}
+div.dark_rounded .pp_content_container .pp_right{background:url(../images/prettyPhoto/dark_rounded/contentPattern.png) top right repeat-y}
+div.dark_rounded .pp_next:hover{background:url(../images/prettyPhoto/dark_rounded/btnNext.png) center right no-repeat;cursor:pointer}
+div.dark_rounded .pp_previous:hover{background:url(../images/prettyPhoto/dark_rounded/btnPrevious.png) center left no-repeat;cursor:pointer}
+div.dark_rounded .pp_expand{background:url(../images/prettyPhoto/dark_rounded/sprite.png) -31px -26px no-repeat;cursor:pointer}
+div.dark_rounded .pp_expand:hover{background:url(../images/prettyPhoto/dark_rounded/sprite.png) -31px -47px no-repeat;cursor:pointer}
+div.dark_rounded .pp_contract{background:url(../images/prettyPhoto/dark_rounded/sprite.png) 0 -26px no-repeat;cursor:pointer}
+div.dark_rounded .pp_contract:hover{background:url(../images/prettyPhoto/dark_rounded/sprite.png) 0 -47px no-repeat;cursor:pointer}
+div.dark_rounded .pp_close{width:75px;height:22px;background:url(../images/prettyPhoto/dark_rounded/sprite.png) -1px -1px no-repeat;cursor:pointer}
+div.dark_rounded .pp_description{margin-right:85px;color:#fff}
+div.dark_rounded .pp_nav .pp_play{background:url(../images/prettyPhoto/dark_rounded/sprite.png) -1px -100px no-repeat;height:15px;width:14px}
+div.dark_rounded .pp_nav .pp_pause{background:url(../images/prettyPhoto/dark_rounded/sprite.png) -24px -100px no-repeat;height:15px;width:14px}
+div.dark_rounded .pp_arrow_previous{background:url(../images/prettyPhoto/dark_rounded/sprite.png) 0 -71px no-repeat}
+div.dark_rounded .pp_arrow_next{background:url(../images/prettyPhoto/dark_rounded/sprite.png) -22px -71px no-repeat}
+div.dark_rounded .pp_bottom .pp_left{background:url(../images/prettyPhoto/dark_rounded/sprite.png) -88px -80px no-repeat}
+div.dark_rounded .pp_bottom .pp_right{background:url(../images/prettyPhoto/dark_rounded/sprite.png) -110px -80px no-repeat}
+div.dark_rounded .pp_loaderIcon{background:url(../images/prettyPhoto/dark_rounded/loader.gif) center center no-repeat}
+div.dark_square .pp_left,div.dark_square .pp_middle,div.dark_square .pp_right,div.dark_square .pp_content{background:#000}
+div.dark_square .pp_description{color:#fff;margin:0 85px 0 0}
+div.dark_square .pp_loaderIcon{background:url(../images/prettyPhoto/dark_square/loader.gif) center center no-repeat}
+div.dark_square .pp_expand{background:url(../images/prettyPhoto/dark_square/sprite.png) -31px -26px no-repeat;cursor:pointer}
+div.dark_square .pp_expand:hover{background:url(../images/prettyPhoto/dark_square/sprite.png) -31px -47px no-repeat;cursor:pointer}
+div.dark_square .pp_contract{background:url(../images/prettyPhoto/dark_square/sprite.png) 0 -26px no-repeat;cursor:pointer}
+div.dark_square .pp_contract:hover{background:url(../images/prettyPhoto/dark_square/sprite.png) 0 -47px no-repeat;cursor:pointer}
+div.dark_square .pp_close{width:75px;height:22px;background:url(../images/prettyPhoto/dark_square/sprite.png) -1px -1px no-repeat;cursor:pointer}
+div.dark_square .pp_nav{clear:none}
+div.dark_square .pp_nav .pp_play{background:url(../images/prettyPhoto/dark_square/sprite.png) -1px -100px no-repeat;height:15px;width:14px}
+div.dark_square .pp_nav .pp_pause{background:url(../images/prettyPhoto/dark_square/sprite.png) -24px -100px no-repeat;height:15px;width:14px}
+div.dark_square .pp_arrow_previous{background:url(../images/prettyPhoto/dark_square/sprite.png) 0 -71px no-repeat}
+div.dark_square .pp_arrow_next{background:url(../images/prettyPhoto/dark_square/sprite.png) -22px -71px no-repeat}
+div.dark_square .pp_next:hover{background:url(../images/prettyPhoto/dark_square/btnNext.png) center right no-repeat;cursor:pointer}
+div.dark_square .pp_previous:hover{background:url(../images/prettyPhoto/dark_square/btnPrevious.png) center left no-repeat;cursor:pointer}
+div.light_square .pp_expand{background:url(../images/prettyPhoto/light_square/sprite.png) -31px -26px no-repeat;cursor:pointer}
+div.light_square .pp_expand:hover{background:url(../images/prettyPhoto/light_square/sprite.png) -31px -47px no-repeat;cursor:pointer}
+div.light_square .pp_contract{background:url(../images/prettyPhoto/light_square/sprite.png) 0 -26px no-repeat;cursor:pointer}
+div.light_square .pp_contract:hover{background:url(../images/prettyPhoto/light_square/sprite.png) 0 -47px no-repeat;cursor:pointer}
+div.light_square .pp_close{width:75px;height:22px;background:url(../images/prettyPhoto/light_square/sprite.png) -1px -1px no-repeat;cursor:pointer}
+div.light_square .pp_nav .pp_play{background:url(../images/prettyPhoto/light_square/sprite.png) -1px -100px no-repeat;height:15px;width:14px}
+div.light_square .pp_nav .pp_pause{background:url(../images/prettyPhoto/light_square/sprite.png) -24px -100px no-repeat;height:15px;width:14px}
+div.light_square .pp_arrow_previous{background:url(../images/prettyPhoto/light_square/sprite.png) 0 -71px no-repeat}
+div.light_square .pp_arrow_next{background:url(../images/prettyPhoto/light_square/sprite.png) -22px -71px no-repeat}
+div.light_square .pp_next:hover{background:url(../images/prettyPhoto/light_square/btnNext.png) center right no-repeat;cursor:pointer}
+div.light_square .pp_previous:hover{background:url(../images/prettyPhoto/light_square/btnPrevious.png) center left no-repeat;cursor:pointer}
+div.facebook .pp_top .pp_left{background:url(../images/prettyPhoto/facebook/sprite.png) -88px -53px no-repeat}
+div.facebook .pp_top .pp_middle{background:url(../images/prettyPhoto/facebook/contentPatternTop.png) top left repeat-x}
+div.facebook .pp_top .pp_right{background:url(../images/prettyPhoto/facebook/sprite.png) -110px -53px no-repeat}
+div.facebook .pp_content_container .pp_left{background:url(../images/prettyPhoto/facebook/contentPatternLeft.png) top left repeat-y}
+div.facebook .pp_content_container .pp_right{background:url(../images/prettyPhoto/facebook/contentPatternRight.png) top right repeat-y}
+div.facebook .pp_expand{background:url(../images/prettyPhoto/facebook/sprite.png) -31px -26px no-repeat;cursor:pointer}
+div.facebook .pp_expand:hover{background:url(../images/prettyPhoto/facebook/sprite.png) -31px -47px no-repeat;cursor:pointer}
+div.facebook .pp_contract{background:url(../images/prettyPhoto/facebook/sprite.png) 0 -26px no-repeat;cursor:pointer}
+div.facebook .pp_contract:hover{background:url(../images/prettyPhoto/facebook/sprite.png) 0 -47px no-repeat;cursor:pointer}
+div.facebook .pp_close{width:22px;height:22px;background:url(../images/prettyPhoto/facebook/sprite.png) -1px -1px no-repeat;cursor:pointer}
+div.facebook .pp_description{margin:0 37px 0 0}
+div.facebook .pp_loaderIcon{background:url(../images/prettyPhoto/facebook/loader.gif) center center no-repeat}
+div.facebook .pp_arrow_previous{background:url(../images/prettyPhoto/facebook/sprite.png) 0 -71px no-repeat;height:22px;margin-top:0;width:22px}
+div.facebook .pp_arrow_previous.disabled{background-position:0 -96px;cursor:default}
+div.facebook .pp_arrow_next{background:url(../images/prettyPhoto/facebook/sprite.png) -32px -71px no-repeat;height:22px;margin-top:0;width:22px}
+div.facebook .pp_arrow_next.disabled{background-position:-32px -96px;cursor:default}
+div.facebook .pp_nav{margin-top:0}
+div.facebook .pp_nav p{font-size:15px;padding:0 3px 0 4px}
+div.facebook .pp_nav .pp_play{background:url(../images/prettyPhoto/facebook/sprite.png) -1px -123px no-repeat;height:22px;width:22px}
+div.facebook .pp_nav .pp_pause{background:url(../images/prettyPhoto/facebook/sprite.png) -32px -123px no-repeat;height:22px;width:22px}
+div.facebook .pp_next:hover{background:url(../images/prettyPhoto/facebook/btnNext.png) center right no-repeat;cursor:pointer}
+div.facebook .pp_previous:hover{background:url(../images/prettyPhoto/facebook/btnPrevious.png) center left no-repeat;cursor:pointer}
+div.facebook .pp_bottom .pp_left{background:url(../images/prettyPhoto/facebook/sprite.png) -88px -80px no-repeat}
+div.facebook .pp_bottom .pp_middle{background:url(../images/prettyPhoto/facebook/contentPatternBottom.png) top left repeat-x}
+div.facebook .pp_bottom .pp_right{background:url(../images/prettyPhoto/facebook/sprite.png) -110px -80px no-repeat}
+div.pp_pic_holder a:focus{outline:none}
+div.pp_overlay{background:#000;display:none;left:0;position:absolute;top:0;width:100%;z-index:9500}
+div.pp_pic_holder{display:none;position:absolute;width:100px;z-index:10000}
+.pp_content{height:40px;min-width:40px}
+* html .pp_content{width:40px}
+.pp_content_container{position:relative;text-align:left;width:100%}
+.pp_content_container .pp_left{padding-left:20px}
+.pp_content_container .pp_right{padding-right:20px}
+.pp_content_container .pp_details{float:left;margin:10px 0 2px}
+.pp_description{display:none;margin:0}
+.pp_social{float:left;margin:0}
+.pp_social .facebook{float:left;margin-left:5px;width:55px;overflow:hidden}
+.pp_social .twitter{float:left}
+.pp_nav{clear:right;float:left;margin:3px 10px 0 0}
+.pp_nav p{float:left;white-space:nowrap;margin:2px 4px}
+.pp_nav .pp_play,.pp_nav .pp_pause{float:left;margin-right:4px;text-indent:-10000px}
+a.pp_arrow_previous,a.pp_arrow_next{display:block;float:left;height:15px;margin-top:3px;overflow:hidden;text-indent:-10000px;width:14px}
+.pp_hoverContainer{position:absolute;top:0;width:100%;z-index:2000}
+.pp_gallery{display:none;left:50%;margin-top:-50px;position:absolute;z-index:10000}
+.pp_gallery div{float:left;overflow:hidden;position:relative}
+.pp_gallery ul{float:left;height:35px;position:relative;white-space:nowrap;margin:0 0 0 5px;padding:0}
+.pp_gallery ul a{border:1px rgba(0,0,0,0.5) solid;display:block;float:left;height:33px;overflow:hidden}
+.pp_gallery ul a img{border:0}
+.pp_gallery li{display:block;float:left;margin:0 5px 0 0;padding:0}
+.pp_gallery li.default a{background:url(../images/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;display:block;height:33px;width:50px}
+.pp_gallery .pp_arrow_previous,.pp_gallery .pp_arrow_next{margin-top:7px!important}
+a.pp_next{background:url(../images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;display:block;float:right;height:100%;text-indent:-10000px;width:49%}
+a.pp_previous{background:url(../images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;display:block;float:left;height:100%;text-indent:-10000px;width:49%}
+a.pp_expand,a.pp_contract{cursor:pointer;display:none;height:20px;position:absolute;right:30px;text-indent:-10000px;top:10px;width:20px;z-index:20000}
+a.pp_close{position:absolute;right:0;top:0;display:block;line-height:22px;text-indent:-10000px}
+.pp_loaderIcon{display:block;height:24px;left:50%;position:absolute;top:50%;width:24px;margin:-12px 0 0 -12px}
+#pp_full_res{line-height:1!important}
+#pp_full_res .pp_inline{text-align:left}
+#pp_full_res .pp_inline p{margin:0 0 15px}
+div.ppt{color:#fff;display:none;font-size:17px;z-index:9999;margin:0 0 5px 15px}
+div.pp_default .pp_content,div.light_rounded .pp_content{background-color:#fff}
+div.pp_default #pp_full_res .pp_inline,div.light_rounded .pp_content .ppt,div.light_rounded #pp_full_res .pp_inline,div.light_square .pp_content .ppt,div.light_square #pp_full_res .pp_inline,div.facebook .pp_content .ppt,div.facebook #pp_full_res .pp_inline{color:#000}
+div.pp_default .pp_gallery ul li a:hover,div.pp_default .pp_gallery ul li.selected a,.pp_gallery ul a:hover,.pp_gallery li.selected a{border-color:#fff}
+div.pp_default .pp_details,div.light_rounded .pp_details,div.dark_rounded .pp_details,div.dark_square .pp_details,div.light_square .pp_details,div.facebook .pp_details{position:relative}
+div.light_rounded .pp_top .pp_middle,div.light_rounded .pp_content_container .pp_left,div.light_rounded .pp_content_container .pp_right,div.light_rounded .pp_bottom .pp_middle,div.light_square .pp_left,div.light_square .pp_middle,div.light_square .pp_right,div.light_square .pp_content,div.facebook .pp_content{background:#fff}
+div.light_rounded .pp_description,div.light_square .pp_description{margin-right:85px}
+div.light_rounded .pp_gallery a.pp_arrow_previous,div.light_rounded .pp_gallery a.pp_arrow_next,div.dark_rounded .pp_gallery a.pp_arrow_previous,div.dark_rounded .pp_gallery a.pp_arrow_next,div.dark_square .pp_gallery a.pp_arrow_previous,div.dark_square .pp_gallery a.pp_arrow_next,div.light_square .pp_gallery a.pp_arrow_previous,div.light_square .pp_gallery a.pp_arrow_next{margin-top:12px!important}
+div.light_rounded .pp_arrow_previous.disabled,div.dark_rounded .pp_arrow_previous.disabled,div.dark_square .pp_arrow_previous.disabled,div.light_square .pp_arrow_previous.disabled{background-position:0 -87px;cursor:default}
+div.light_rounded .pp_arrow_next.disabled,div.dark_rounded .pp_arrow_next.disabled,div.dark_square .pp_arrow_next.disabled,div.light_square .pp_arrow_next.disabled{background-position:-22px -87px;cursor:default}
+div.light_rounded .pp_loaderIcon,div.light_square .pp_loaderIcon{background:url(../images/prettyPhoto/light_rounded/loader.gif) center center no-repeat}
+div.dark_rounded .pp_top .pp_middle,div.dark_rounded .pp_content,div.dark_rounded .pp_bottom .pp_middle{background:url(../images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat}
+div.dark_rounded .currentTextHolder,div.dark_square .currentTextHolder{color:#c4c4c4}
+div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline{color:#fff}
+.pp_top,.pp_bottom{height:20px;position:relative}
+* html .pp_top,* html .pp_bottom{padding:0 20px}
+.pp_top .pp_left,.pp_bottom .pp_left{height:20px;left:0;position:absolute;width:20px}
+.pp_top .pp_middle,.pp_bottom .pp_middle{height:20px;left:20px;position:absolute;right:20px}
+* html .pp_top .pp_middle,* html .pp_bottom .pp_middle{left:0;position:static}
+.pp_top .pp_right,.pp_bottom .pp_right{height:20px;left:auto;position:absolute;right:0;top:0;width:20px}
+.pp_fade,.pp_gallery li.default a img{display:none}
+
+@nav-link-padding : 200px;
+/* line 12, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+body {
+  background: url("https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/next_background_optimized.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Arial;
+}
+
+/* HEADER */
+/* line 25, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.boostrap_header {
+  background-color: #4C849B;
+}
+
+/* line 29, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.header {
+  background-color: #4C849B;
+  border-top: 6px solid #EC992C;
+  margin-bottom: 50px;
+  height: 125px;
+}
+/* line 34, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.header img {
+  height: 119px;
+  float: left;
+  display: inline;
+  padding-right: 20px;
+}
+/* line 40, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.header ul {
+  list-style-type: none;
+  float: left;
+  margin: 0px;
+}
+/* line 44, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.header ul li {
+  float: left;
+  padding-right: 35px;
+  font-size: 22px;
+  line-height: 125px;
+}
+/* line 49, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.header ul li a {
+  color: white;
+}
+/* line 52, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.header ul li a:hover {
+  text-decoration: none;
+  color: #EC992C;
+}
+
+@media (max-width: 1270px) {
+  /* line 61, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+  .header ul li {
+    font-size: 16px;
+  }
+
+  /* line 64, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+  .header img {
+    height: 100px;
+    padding-right: 5px;
+  }
+}
+@media (max-width: 1050px) {
+  /* line 71, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+  .header ul li {
+    font-size: 14px;
+    padding-right: 20px;
+  }
+
+  /* line 75, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+  .header img {
+    height: 80px;
+    padding-right: 0px;
+  }
+}
+/* FOOTER */
+/* line 86, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.other_footer {
+  background-color: #4C9ABF;
+  opacity: 0.85;
+  margin-top: 125px;
+  padding: 30px 0 75px 0;
+}
+/* line 91, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.other_footer .left_side {
+  float: right;
+  color: black;
+  margin-right: 30px;
+}
+/* line 96, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.other_footer .right_side {
+  float: left;
+  color: black;
+  margin-left: 30px;
+}
+/* line 101, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.other_footer h2 {
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+/* line 105, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.other_footer h4 {
+  font-size: 21px;
+  padding-bottom: 1px;
+}
+/* line 109, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.other_footer a {
+  color: #E4E4E4;
+}
+
+/* line 114, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.footer {
+  background-color: #4C9ABF;
+  opacity: 0.85;
+  margin-top: 135px;
+}
+/* line 118, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.footer .kontakt_box {
+  background-color: #4C9ABF;
+  color: black;
+}
+/* line 121, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.footer .kontakt_box h2 {
+  font-size: 35px;
+  padding-top: 13px;
+  padding-bottom: 10px;
+}
+/* line 126, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.footer .kontakt_box h4 {
+  font-size: 21px;
+  padding-bottom: 1px;
+}
+/* line 130, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.footer .kontakt_box a {
+  color: #E4E4E4;
+}
+
+/* HOMEPAGE */
+/* line 141, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+#page_title {
+  color: #171B1C;
+  font-size: 49px;
+  text-align: center;
+  padding: 20px 0px 25px 0px;
+  line-height: 1.15;
+}
+
+@media (max-width: 930px) {
+  /* line 150, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+  #page_title {
+    font-size: 35px;
+  }
+}
+/* line 157, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.home_picture h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 12px;
+  color: #171B1C;
+}
+/* line 163, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.home_picture img {
+  width: 100%;
+  height: 350px;
+  border: 5px solid #53ADD6;
+}
+/* line 168, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.home_picture a:hover {
+  text-decoration: none;
+}
+
+/* ÜBER UNS */
+/* line 176, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.ueber_uns {
+  margin-bottom: 20px;
+}
+/* line 178, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.ueber_uns .text {
+  background-color: #D0D0D0;
+  opacity: 0.85;
+  color: black;
+  padding: 25px 50px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+/* line 184, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.ueber_uns .text p {
+  line-height: 1.65;
+  font-size: 16px;
+}
+/* line 189, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.ueber_uns .image {
+  text-align: center;
+}
+/* line 191, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.ueber_uns .image img {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  background-color: #53ADD6;
+}
+/* line 197, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.ueber_uns .image a {
+  margin-bottom: 25px;
+}
+
+/* line 203, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.meinungen {
+  margin-top: 45px;
+}
+/* line 205, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.meinungen img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 35px;
+}
+
+/* KONTAKT */
+/* line 216, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.kontakt {
+  background-color: #D0D0D0;
+  height: 340px;
+  opacity: 0.85;
+  padding: 20px 40px 70px 60px;
+  color: black;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+/* line 223, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.kontakt p {
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  /* line 232, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+  .kontakt a {
+    font-size: 16px;
+  }
+}
+/* HUSUM_UND_SYLT_TIPPS */
+/* line 242, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.tipps_container {
+  background-color: #D0D0D0;
+  opacity: 0.91;
+  color: black;
+  padding: 55px 8px 65px 8px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+/* line 248, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.tipps_container h3 {
+  font-size: 26px;
+  margin-top: 0px;
+}
+/* line 252, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.tipps_container p {
+  line-height: 1.45;
+  font-size: 17px;
+}
+/* line 256, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.tipps_container img {
+  width: 100%;
+  height: auto;
+  border: 5px solid #53ADD6;
+}
+/* line 261, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.tipps_container .row {
+  margin-bottom: 30px;
+}
+
+/* ALLE FERIENWOHNUNGEN  */
+/* line 272, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.ferienwohnungen_heading {
+  font-size: 49px;
+  padding-bottom: 45px;
+  text-align: center;
+}
+
+/* line 277, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+#sylt {
+  color: #171B1C;
+}
+
+/* line 280, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+#husum {
+  color: white;
+}
+
+/* line 284, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.wohnung {
+  margin-bottom: 35px;
+  position: relative;
+}
+/* line 288, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.wohnung .image img {
+  width: 100%;
+  height: 350px;
+  border: 5px solid #53ADD6;
+}
+/* line 294, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.wohnung .description {
+  height: 350px;
+  background-color: #DDDDDD;
+  opacity: 0.98;
+  padding: 12px 0px 0px 40px;
+  color: #171B1C;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+/* line 301, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.wohnung .description h2 {
+  font-size: 35px;
+  padding-bottom: 3px;
+}
+/* line 305, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.wohnung .description ul {
+  padding-bottom: 12px;
+}
+/* line 308, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.wohnung .description li {
+  font-size: 18px;
+  padding-bottom: 4px;
+  font-weight: bold;
+}
+/* line 313, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.wohnung .description a {
+  padding: 25px;
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+
+/* FERIENWOHNUNGS SPEZIFISCH */
+/* line 330, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.big_photo img {
+  border: 5px solid #53ADD6;
+}
+
+/* line 335, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.spezifische_wohnungsbeschreibung {
+  background-color: #DDDDDD;
+  opacity: 0.98;
+  padding: 12px 0px 0px 25px;
+  color: #171B1C;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  position: relative;
+}
+/* line 342, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.spezifische_wohnungsbeschreibung h2 {
+  padding-top: 45px;
+}
+/* line 345, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.spezifische_wohnungsbeschreibung p {
+  padding: 0px 15px 5px 0px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+/* line 350, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.spezifische_wohnungsbeschreibung a {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  padding: 15px 0;
+  margin-bottom: 300px;
+  display: block;
+}
+
+/* line 361, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.gallery_link {
+  text-align: center;
+  margin: 40px 0 50px 0;
+}
+
+/* line 366, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+#gallery_link {
+  padding: 16px 95px;
+  font-size: 15px;
+}
+
+/* line 371, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.prices {
+  background-color: #DDDDDD;
+  opacity: 0.98;
+  min-height: 400px;
+  margin-top: 45px;
+  padding: 10px 0 0 28px;
+  color: #171B1C;
+  font-size: 26px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+/* line 380, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.prices table {
+  width: 95%;
+  height: 330px;
+}
+/* line 383, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.prices table tr {
+  height: 25%;
+}
+/* line 385, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.prices table tr .align_center {
+  text-align: center;
+}
+
+/* line 392, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.foto_gallery {
+  display: none;
+}
+
+/* to be replace for first element */
+/* line 407, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.boxportfolio2 {
+  float: left;
+  padding-right: 20px;
+  width: 48.317948717948715%;
+  display: inline-block;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 0;
+}
+/* line 415, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.boxportfolio2 #myCarousel {
+  border: 5px solid #53ADD6;
+}
+
+/* line 420, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.small_images_container {
+  padding: 5px;
+  height: 200px;
+  background-color: #53ADD6;
+  border: none;
+}
+/* line 425, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.small_images_container img {
+  width: 100%;
+  height: 190px;
+}
+
+/* line 431, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.small_images_container_vertical {
+  height: 200px;
+  border: 5px solid #53ADD6;
+  overflow: hidden;
+  position: relative;
+}
+/* line 436, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.small_images_container_vertical img {
+  width: 100%;
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+}
+
+/* line 447, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.einrichtung {
+  background-color: #DDDDDD;
+  opacity: 0.98;
+  height: 470px;
+  padding: 0 40px 30px 35px;
+  color: #171B1C;
+  overflow: hidden;
+}
+/* line 454, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.einrichtung h2 {
+  padding-bottom: 3px;
+  font-size: 26px;
+}
+/* line 458, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.einrichtung p {
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+/* line 464, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.kundenmeinungen {
+  background-color: #DDDDDD;
+  opacity: 0.98;
+  height: 470px;
+  color: #171B1C;
+  padding: 10px 40px 30px 35px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  overflow: hidden;
+}
+
+/* line 475, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.small_images_container_horizontal {
+  height: 200px;
+  border: 5px solid #53ADD6;
+  overflow: hidden;
+  position: relative;
+  background-color: #4C849B;
+}
+/* line 481, /Users/Johannes/code/ferien/app/assets/stylesheets/styles.css.scss */
+.small_images_container_horizontal img {
+  width: 100%;
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+
+ */
+
