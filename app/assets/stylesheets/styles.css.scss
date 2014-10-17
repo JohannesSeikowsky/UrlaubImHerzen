@@ -83,6 +83,34 @@ body{
 
 /* FOOTER */ 
 
+.other_footer{
+	background-color: #4C9ABF; 
+  opacity: 0.85;
+	margin-top: 125px;
+	padding: 30px 0 75px 0; 
+		.left_side{
+			float: right; 
+			color: black; 
+			margin-right: 30px; 
+		}
+		.right_side{
+			float: left; 
+			color: black; 
+			margin-left: 30px; 		
+		}
+		h2{
+			font-size: 35px;
+			padding-bottom: 10px;
+		}
+		h4{
+			font-size: 21px;
+			padding-bottom: 1px;
+		}
+		a{
+			color: #E4E4E4;
+		}
+}
+
 .footer{
 	background-color: #4C9ABF; 
   opacity: 0.85;
@@ -104,6 +132,7 @@ body{
 		}
 	}
 }
+
 
 
 
@@ -306,19 +335,15 @@ body{
 .spezifische_wohnungsbeschreibung{
 	background-color: $text_box_background;
 	opacity: 0.98; 
-	padding: 12px 0px 0px 40px; 
+	padding: 12px 0px 0px 25px; 
 	color: $color_of_page_title; 
   @include border-radius;
   position: relative; 
   h2{
 		padding-top: 45px; 
-		padding-left: 15px; 
-  }
-  h3{
-		padding-left: 15px;   
   }
 	p{
-		padding: 0px 15px 5px 15px;
+		padding: 0px 15px 5px 0px;
 		font-size: 16px;
 		line-height: 1.4;
 	}
