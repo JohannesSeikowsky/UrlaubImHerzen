@@ -1,220 +1,94 @@
-<div class="container-fluid">
+<div class="row">
+  <div class="col-xs-12 col-sm-10 col-sm-offset-1">
 
-	<div class="row-fluid">
-	<div class="span10 offset1">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8">
+        <div class="big_photo">
+          <a href="https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/new/paulstra%C3%9Fe_optimized.jpg" rel="prettyPhoto[wohnungsfotos]">
+            <img src="https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/new/paulstra%C3%9Fe_optimized.jpg" rel="prettyPhoto[wohnungsfotos]" width="100%" height="auto" />
 
-	<!-- FIRST PART - OBERE REIHE -->
-	<div class="row-fluid">
-		<div class="span6 boxportfolio2 fixed cat2">
-			<div id="myCarousel" class="carousel slide" style="max-width:100%;">
-				<div class="carousel-inner">
-					<div class="active item">
-							<%= image_tag("https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/new/paulstra%C3%9Fe_optimized.jpg", alt: "Wohnung Seeschwalbe") %> 
-					</div>
-					<div class="item">
-						<%= image_tag(paulstraße_image("2"), alt: "Wohnung Seeschwalbe") %> 
-					</div>
-					<div class="item">
-						<%= image_tag(paulstraße_image("3"), alt: "Wohnung Seeschwalbe") %> 
-					</div>
-					<div class="item">
-						<%= image_tag(paulstraße_image("4"), alt: "Wohnung Seeschwalbe") %> 
-					</div>					
-					<div class="item">
-						<%= image_tag(paulstraße_image("5"), alt: "Wohnung Seeschwalbe") %> 
-					</div>
-					<div class="item">
-						<%= image_tag(paulstraße_image("6"), alt: "Wohnung Seeschwalbe") %> 
-					</div>		
-					<div class="item">
-						<%= image_tag(paulstraße_image("7"), alt: "Wohnung Seeschwalbe") %> 
-					</div>
-					<div class="item">
-						<%= image_tag(paulstraße_image("8"), alt: "Wohnung Seeschwalbe") %> 
-					</div>		
-					<div class="item">
-						<%= image_tag(paulstraße_image("9"), alt: "Wohnung Seeschwalbe") %> 
-					</div>					
-					<div class="item">
-						<%= image_tag(paulstraße_image("10"), alt: "Wohnung Seeschwalbe") %> 
-					</div>	
-					<div class="item">
-						<%= image_tag(paulstraße_image("11"), alt: "Wohnung Seeschwalbe") %> 
-					</div>	
-				</div>
-				<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-				<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-			</div>
-		</div>
+            <div class="picture_gallery_button">
+              ALLE PHOTOS IN GROSS ANSCHAUN
+            </div> 
+          </a> 
+        </div>
 
-		<div class="span6 spezifische_wohnungsbeschreibung">
-			<h2> „Seeschwalbe" </h2> 
-			<p>
-				Diese große, modern eingerichtete Wohnung befindet sich im 2. Stock des Sparkassenhauses, mitten im Zentrum Westerlands. Von hier aus sind es zum Strand nur wenige Gehminuten. Die Wohnung verfügt über einen Wohnraum mit Sitzgruppe und Essecke, sowie einer offenen, vollausgestatteten Küche mit Geschirrspülmaschine. Vom Wohnraum gelangt man auf einen kleinen Balkon, mit Blick auf das Westerländer Rathaus. Die Schlafräume sind mit 180 x 200 Betten ausgestattet. Ein Schlafzimmer verfügt zusätzlich über ein Ausziehsofa, welches geeignet ist für ein Kind. In dieser Wohnung sind das Duschbad und das WC getrennt. Im Zwischengeschoss (ZG) des Hauses befinden sich zwei Münzwaschmaschinen, sowie ein Trockenraum, den Sie gerne benutzen können. Zu dieser Ferienwohnung gehört ein Stellplatz in der Tiefgarage. Dieser ist mit einem Schild „App 20“ ausgewiesen. Gerne stellen wir Ihnen ein WLAN Netzt zur Verfügung, welches Sie kostenfrei nutzen können.
-			</p> 
-			<%= link_to "ZUM BELEGUNGSKALENDER UND BUCHEN", strandstrasse1_path, class: "btn btn-large btn-warning" %>  
-		</div>
-	</div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9174.779076023391!2d8.3047253!3d54.9082794!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b4de8d69b9fb41%3A0x73fc0951fad5d764!2sPaulstra%C3%9Fe+2%2C+25980!5e0!3m2!1sde!2sde!4v1412097849426" width="100%" height="470"></iframe>
 
+        <div class="prices">
+          <table>
+            <tr>
+              <td><strong> Unsere Preisliste </strong></td>
+              <td class="align_center"><strong> 1ste Nacht </strong></td>
+              <td class="align_center"><strong> Folgenacht </strong></td>   
+            </tr>
+            <tr> 
+              <td> Hauptsaison: </td> 
+              <td class="align_center"> 235 € </td> 
+              <td class="align_center"> 139 € </td> 
+            </tr> 
+            <tr> 
+              <td> Nebensaison: </td> 
+              <td class="align_center"> 205 €</td> 
+              <td class="align_center"> 109 € </td> 
+            </tr> 
+            <tr> 
+              <td> Zwischensaison: </td> 
+              <td class="align_center"> 175 €</td> 
+              <td class="align_center"> 79 €</td> 
+            </tr> 
+          </table>
+            <h5> *Alle Preise gelten für 2 Personen. Jede weitere Erwachsene Person 10 € / Tag.</h5>  
+        </div> 
 
-	<!-- PART 2: MINIFOTOS -->
+      <!-- Closing Column -->
+      </div>
 
-	<div class="row-fluid">
-		<div class="span3 small_images_container">
-			<a href=<%= paulstraße_image("1") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(paulstraße_image_small("1"), alt: "Das Wohnzimmer") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= paulstraße_image("2") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(paulstraße_image_small("2"), alt: "Das Wohnzimmer") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= paulstraße_image("3") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(paulstraße_image_small("3"), alt: "Das Wohnzimmer") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= paulstraße_image("4") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(paulstraße_image_small("4"), alt: "Schlafzimmer 1") %> 
-			</a> 
-		</div>
-	</div>
-	<br>
-	<br>
-	<div class="row-fluid">
-		<div class="span3 small_images_container">
-			<a href=<%= paulstraße_image("5") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(paulstraße_image_small("5"), alt: "Schlafzimmer 2") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= paulstraße_image("6") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(paulstraße_image_small("6"), alt: "Das Bad") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container_vertical">
-			<a href=<%= paulstraße_image("7") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(paulstraße_image_small("7"), alt: "Das Bad") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= paulstraße_image("8") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(paulstraße_image_small("8"), alt: "Die Küche") %> 
-			</a> 
-		</div>
-	</div>
-	<br>
-	<br>
-	<div class="row-fluid">
-		<div class="span3 small_images_container">
-			<a href=<%= paulstraße_image("9") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(paulstraße_image_small("9"), alt: "Die Küche") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= paulstraße_image("10") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(paulstraße_image_small("10"), alt: "Blick vom Balkon") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= paulstraße_image("11") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(paulstraße_image_small("11"), alt: "Das Haus") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container_horizontal">
-				<%= image_tag(s3_image("logo.jpg"), alt: "Urlaub im Herzen Nordfrieslands") %> 
-		</div>
-	</div>
-	<br>
-	<br>	
+      <div class="col-xs-12 col-sm-4 spezifische_wohnungsbeschreibung">
+        <%= link_to "BUCHEN BEI HUSSMAN", "http://www.hussmann-sylt.de/index.php/ferienwohnungen/dobooking/app-moewennest/154/de" ,class: "btn btn-large btn-warning", target:"_blanck" %>  
+        <h2> „Seeschwalbe" </h2> 
+        <p>
+          Diese große, modern eingerichtete Wohnung befindet sich im 2. Stock des Sparkassenhauses, mitten im Zentrum Westerlands. Von hier aus sind es zum Strand nur wenige Gehminuten. Die Wohnung verfügt über einen Wohnraum mit Sitzgruppe und Essecke, sowie einer offenen, vollausgestatteten Küche mit Geschirrspülmaschine. Vom Wohnraum gelangt man auf einen kleinen Balkon, mit Blick auf das Westerländer Rathaus. Die Schlafräume sind mit 180 x 200 Betten ausgestattet. Ein Schlafzimmer verfügt zusätzlich über ein Ausziehsofa, welches geeignet ist für ein Kind. In dieser Wohnung sind das Duschbad und das WC getrennt. Im Zwischengeschoss (ZG) des Hauses befinden sich zwei Münzwaschmaschinen, sowie ein Trockenraum, den Sie gerne benutzen können. Zu dieser Ferienwohnung gehört ein Stellplatz in der Tiefgarage. Dieser ist mit einem Schild „App 20“ ausgewiesen. Gerne stellen wir Ihnen ein WLAN Netzt zur Verfügung, welches Sie kostenfrei nutzen können.
+        </p> 
+        <hr>
+        <h3> Einrichtung  </h3> 
+          <p>
+           <strong>Küche:</strong> 4 Platten Ceranfeld, Backofen, Mikrowelle, Kühlschrank mit Gefrierfach, Geschirrspüler, Kaffeemaschine, Toaster, Wasserkocher <br><br>
+          <strong>Badezimmer:</strong> Föhn, Duschbad, Separates WC <br>
+          <strong>Wohnzimmer:</strong> Flachbildschirm, Kabel-TV, Offene Küche <br> 
+          <strong>Schlafzimmer:</strong> Beide mit Doppelbett (180*200), Eines mit Ausziehsessel, Ein Flachbildschirm <br><br>  
+          <strong>Sonstiges:</strong> Parkplatz (Tiefgarage), WLAN, Haustiere auf Anfrage, Balkon, Staubsauger, Münzwaschmaschine im ZG, Nichtraucher <br>     
+          </p> 
+        <hr>
+        <h3> Saisons </h3> 
+        <p>Hauptsaison: <br> <strong>20.12.14 - 04.01.15</strong> <br> <strong>29.06.15 - 06.09.15</strong> <br>  <strong>21.12.15 - 03.01.16</strong></p>
+        <p>Nebensaison: <br> <strong>08.09.14 - 31.10.14</strong> <br> <strong>23.03.15 - 12.04.15</strong> <br> <strong>27.04.15 - 28.06.15</strong> <br> <strong>07.09.15 - 01.11.15</strong> </p>
+        <p>Zwischensaison: <br> <strong>01.11.14 - 19.12.14</strong> <br> <strong>05.01.15 - 22.03.15</strong> <br> <strong>13.04.15 - 26.04.15</strong> <br> <strong>02.11.15 - 20.12.15</strong></p>
+          <br>
+      </div>
+    </div>
 
-	<!-- PART 3: PREISTABELLE * EINRICHTUNGEN -->
+    <!-- prettyPhoto Gallery -->
+      <%= link_to "", strandstraße1_image("2"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("3"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("4"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("5"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("6"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("7"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("8"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("9"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("10"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("11"), rel: "prettyPhoto[wohnungsfotos]" %> 
 
-	<div class="row-fluid">
-		<div class="span8 prices">
-			<table>
-				<tr>
-				  <td><strong> Unsere Preise </strong></td>
-				  <td class="align_center"><strong> Erste Nacht </strong></td>
-				  <td class="align_center"><strong> Folgenächte </strong></td>		
-				</tr>
-				<tr> 
-					<td> Hauptsaison: </td> 
-					<td class="align_center"> 235 € </td> 
-					<td class="align_center"> 139 € </td> 
-				</tr> 
-				<tr> 
-					<td> Nebensaison: </td> 
-					<td class="align_center"> 205 €</td> 
-					<td class="align_center"> 109 € </td> 
-				</tr> 
-				<tr> 
-					<td> Zwischensaison: </td> 
-					<td class="align_center"> 175 €</td> 
-					<td class="align_center"> 79 €</td> 
-				</tr> 
-			</table>
-			<div class="text">
-				<p>Hauptsaison: <strong>20.12.14 - 04.01.15</strong>  und  <strong>29.06.15 - 06.09.15</strong> und  <strong>21.12.15 - 03.01.16</strong></p>
-				<p>Nebensaison: <strong>08.09.14 - 31.10.14</strong>  und <strong>23.03.15 - 12.04.15</strong>  und <strong>27.04.15 - 28.06.15</strong> und <strong>07.09.15 - 01.11.15</strong> </p>
-				<p>Zwischensaison: <strong>01.11.14 - 19.12.14</strong> und <strong>05.01.15 - 22.03.15</strong> und <strong>13.04.15 - 26.04.15</strong> und <strong>02.11.15 - 20.12.15</strong></p>
-				<h4>*Preise gelten für 2 Personen. Jede weitere Erwachsene Person 10 € / Tag.</h4>	
-			</div>
-		</div> 
-
-		<div class="span4 einrichtung">
-				<h2> Einrichtung  </h2> 
-				<p>
-					<strong>Küche:</strong> 4 Platten Ceranfeld, Backofen, Mikrowelle, Kühlschrank mit Gefrierfach, Geschirrspüler, Kaffeemaschine, Toaster, Wasserkocher <br><br>
-					<strong>Badezimmer:</strong> Föhn, Duschbad, Separates WC <br>
-					<strong>Wohnzimmer:</strong> Flachbildschirm, Kabel-TV, Offene Küche <br>	
-					<strong>Schlafzimmer:</strong> Beide mit Doppelbett (180*200), Eines mit Ausziehsessel, Ein Flachbildschirm <br><br>	
-					<strong>Sonstiges:</strong> Parkplatz (Tiefgarage), WLAN, Haustiere auf Anfrage, Balkon, Staubsauger, Münzwaschmaschine im ZG, Nichtraucher <br>			
-				</p> 
-		</div> 	
-	</div>
-	<br>
-	<br>
-
-	<!-- PART 4: GOOGLE MAPS + KUNDENMEINUNGEN -->
-
-	<div class="row-fluid">
-		<div class="span8">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9174.779076023391!2d8.3047253!3d54.9082794!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b4de8d69b9fb41%3A0x73fc0951fad5d764!2sPaulstra%C3%9Fe+2%2C+25980!5e0!3m2!1sde!2sde!4v1412097849426" width="100%" height="470" frameborder="0" style="border:0"></iframe>
-		</div>
-
-		<!-- <div class="span4 kundenmeinungen">
-				<h2> Was unsere Gäste sagen: </h2>
-				<br>
-				<blockquote>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. scelerisque et tellus. Maecenas hendrerit enim sed nulla euismod id feugiat neque bibendum.
-					</p>
-					<small>Mark Zolinger Client of Project </small>
-				</blockquote>
-				<blockquote>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. scelerisque et tellus. Maecenas hendrerit enim sed nulla euismod id feugiat neque bibendum.
-					</p>
-					<small>Mark Zolinger Client of Project</small>
-				</blockquote>
-		</div>
-	</div> -->
-
-
-	<!-- closing containing row & span -->
-
-	</div>
-	</div>
+  <!-- Closing the Container Column and Row -->
+  </div>
 </div>
 
-
-<!-- initializng prettyPhoto -->
+<!-- PrettyPhoto -->
 <script type="text/javascript" charset="utf-8">
   $(document).ready(function(){
     $("a[rel^='prettyPhoto']").prettyPhoto();
   });
 </script>
+
 

@@ -1,224 +1,93 @@
-<div class="container-fluid">
+<div class="row">
+  <div class="col-xs-12 col-sm-10 col-sm-offset-1">
 
-	<div class="row-fluid">
-	<div class="span10 offset1">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8">
+        <div class="big_photo">
+          <a href="https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/new/strandstra%C3%9Fe2_optimized.jpg" rel="prettyPhoto[wohnungsfotos]">
+            <img src="https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/new/strandstra%C3%9Fe2_optimized.jpg" rel="prettyPhoto[wohnungsfotos]" width="100%" height="auto" />
 
-	<!-- FIRST PART - OBERE REIHE -->
-	<div class="row-fluid">
-		<div class="span6 boxportfolio2 fixed cat2">
-			<div id="myCarousel" class="carousel slide" style="max-width:100%;">
-				<div class="carousel-inner">
-					<div class="active item">
-							<%= image_tag("https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/new/strandstra%C3%9Fe2_optimized.jpg", alt: "Wohnung Strandläufer") %> 
-					</div>
-					<div class="item">
-						<%= image_tag(strandstraße2_image("2"), alt: "Wohnung Strandläufer") %> 
-					</div>
-					<div class="item">
-						<%= image_tag(strandstraße2_image("3"), alt: "Wohnung Strandläufer") %> 
-					</div>
-					<div class="item">
-						<%= image_tag(strandstraße2_image("4"), alt: "Wohnung Strandläufer") %> 
-					</div>					
-					<div class="item">
-						<%= image_tag(strandstraße2_image("5"), alt: "Wohnung Strandläufer") %> 
-					</div>
-					<div class="item">
-						<%= image_tag(strandstraße2_image("6"), alt: "Wohnung Strandläufer") %> 
-					</div>		
-					<div class="item">
-						<%= image_tag(strandstraße2_image("7"), alt: "Wohnung Strandläufer") %> 
-					</div>
-					<div class="item">
-						<%= image_tag(strandstraße2_image("8"), alt: "Wohnung Strandläufer") %> 
-					</div>		
-					<div class="item">
-						<%= image_tag(strandstraße2_image("9"), alt: "Wohnung Strandläufer") %> 
-					</div>					
-					<div class="item">
-						<%= image_tag(strandstraße2_image("10"), alt: "Wohnung Strandläufer") %> 
-					</div>	
-					<div class="item">
-						<%= image_tag(strandstraße2_image("11"), alt: "Wohnung Strandläufer") %> 
-					</div>	
-				</div>
-				<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-				<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-			</div>
-		</div>
+            <div class="picture_gallery_button">
+              ALLE PHOTOS IN GROSS ANSCHAUN
+            </div> 
+          </a> 
+        </div>
 
-		<div class="span6 spezifische_wohnungsbeschreibung">
-			<h2> "Strandläufer" </h2> 
-			<p>
-				Möchten Sie super zentral und dennoch ruhig wohnen, dann sind Sie im „Strandläufer“ richtig. Im Erdgeschoss des Hinterhauses der Strandstr. 14 befindet sich die modern eingerichtete Drei-Zimmer Wohnung, welche super für 4 Personen geeignet ist. Der seperate Flur eignet sich prima zum Abstellen Ihrer Strandsachen oder eines Buggys. Der Strandläufer verfügt über einen Wohnraum mit Sitzgruppe, Essecke und einer vollausgestatteten Kochnische mit Geschirrspüler. Die zwei Schlafräume sind mit 180 x 200 Betten ausgestattet. Zwei Duschbäder machen Ihnen den Urlaub bequemer. Vom Wohnraum gelangen Sie auf eine kleine, durch Heckenrosen eingezäunte Terrasse, die mit einer Sitzgruppe ausgestattet ist. Zu dieser Wohnung gehört ein PKW-Stellplatz auf unserem eigenem Parkplatz, hinter der Wohnung. Im Vorderhaus der Strandstraße 14 haben Sie die Möglichkeit Ihre Wäsche zu waschen. Gerne stellen wir Ihnen ein WLAN Netz zur Verfügung, welches Sie kostenfrei nutzen können.
-			</p> 
-			<%= link_to "ZUM BELEGUNGSKALENDER UND BUCHEN", strandstrasse1_path, class: "btn btn-large btn-warning" %>  
-		</div>
-	</div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2293.6431238392993!2d8.303053399999998!3d54.909185799999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b4de8d553d07f3%3A0x3d2f9a03dd4baf6b!2sStrandstra%C3%9Fe+14%2C+25980!5e0!3m2!1sde!2sde!4v1410298837893" width="100%" height="470"></iframe>
 
-	<!-- PART 2: MINIFOTOS -->
+        <div class="prices">
+          <table>
+            <tr>
+              <td><strong> Unsere Preisliste </strong></td>
+              <td class="align_center"><strong> 1ste Nacht </strong></td>
+              <td class="align_center"><strong> Folgenacht </strong></td>   
+            </tr>
+            <tr> 
+              <td> Hauptsaison: </td> 
+              <td class="align_center"> 260 € </td> 
+              <td class="align_center"> 159 € </td> 
+            </tr> 
+            <tr> 
+              <td> Nebensaison: </td> 
+              <td class="align_center"> 230 €</td> 
+              <td class="align_center"> 129 € </td> 
+            </tr> 
+            <tr> 
+              <td> Zwischensaison: </td> 
+              <td class="align_center"> 190 €</td> 
+              <td class="align_center"> 89 €</td> 
+            </tr> 
+          </table>
+            <h5> *Alle Preise gelten für 2 Personen. Jede weitere Erwachsene Person 10 € / Tag.</h5>  
+        </div> 
 
-	<div class="row-fluid">
-		<div class="span3 small_images_container">
-			<a href=<%= strandstraße2_image("1") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(strandstraße2_image_small("1"), alt: "Wohn- und Esszimmer") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= strandstraße2_image("2") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(strandstraße2_image_small("2"), alt: "Wohn- und Esszimmer") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= strandstraße2_image("3") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(strandstraße2_image_small("3"), alt: "Das Schlafzimmer") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= strandstraße2_image("4") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(strandstraße2_image_small("4"), alt: "Das Schlafzimmer") %> 
-			</a> 
-		</div>
-	</div>
-	<br>
-	<br>
-	<div class="row-fluid">
-		<div class="span3 small_images_container">
-			<a href=<%= strandstraße2_image("5") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(strandstraße2_image_small("5"), alt: "Das Bad") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= strandstraße2_image("6") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(strandstraße2_image_small("6"), alt: "Das Bad") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= strandstraße2_image("7") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(strandstraße2_image_small("7"), alt: "Die Küche") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= strandstraße2_image("8") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(strandstraße2_image_small("8"), alt: "Die Terrasse") %> 
-			</a> 
-		</div>
-	</div>
-	<br>
-	<br>
-	<div class="row-fluid">
-		<div class="span3 small_images_container">
-			<a href=<%= strandstraße2_image("9") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(strandstraße2_image_small("9"), alt: "Die Terrasse von der Seite") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= strandstraße2_image("10") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(strandstraße2_image_small("10"), alt: "Die Terrasse") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= strandstraße2_image("11") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(strandstraße2_image_small("11"), alt: "Das Haus") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container_horizontal">
-				<%= image_tag(s3_image("logo.jpg"), alt: "Urlaub im Herzen Nordfrieslands") %> 
-		</div>
-	</div>
-	<br>
-	<br>	
+      <!-- Closing Column -->
+      </div>
 
-	<!-- PART 3: PREISTABELLE * EINRICHTUNGEN -->
+      <div class="col-xs-12 col-sm-4 spezifische_wohnungsbeschreibung">
+        <%= link_to "BUCHEN BEI HUSSMAN", "http://www.hussmann-sylt.de/index.php/ferienwohnungen/dobooking/app-moewennest/154/de" ,class: "btn btn-large btn-warning", target:"_blanck" %>  
+        <h2> Strandläufer" </h2> 
+        <p>
+          Möchten Sie super zentral und dennoch ruhig wohnen, dann sind Sie im „Strandläufer“ richtig. Im Erdgeschoss des Hinterhauses der Strandstr. 14 befindet sich die modern eingerichtete Drei-Zimmer Wohnung, welche super für 4 Personen geeignet ist. Der seperate Flur eignet sich prima zum Abstellen Ihrer Strandsachen oder eines Buggys. Der Strandläufer verfügt über einen Wohnraum mit Sitzgruppe, Essecke und einer vollausgestatteten Kochnische mit Geschirrspüler. Die zwei Schlafräume sind mit 180 x 200 Betten ausgestattet. Zwei Duschbäder machen Ihnen den Urlaub bequemer. Vom Wohnraum gelangen Sie auf eine kleine, durch Heckenrosen eingezäunte Terrasse, die mit einer Sitzgruppe ausgestattet ist. Zu dieser Wohnung gehört ein PKW-Stellplatz auf unserem eigenem Parkplatz, hinter der Wohnung. Im Vorderhaus der Strandstraße 14 haben Sie die Möglichkeit Ihre Wäsche zu waschen. Gerne stellen wir Ihnen ein WLAN Netz zur Verfügung, welches Sie kostenfrei nutzen können.
+        </p> 
+        <hr>
+        <h3> Einrichtung  </h3> 
+          <p>
+            <strong>Küche:</strong> 4 Platten Ceranfeld, Backofen, Mikrowelle, Kühlschrank mit Gefrierfach, Geschirrspüler, Kaffeemaschine, Toaster, Wasserkocher <br><br>
+            <strong>Badezimmer:</strong> Föhn, Zwei Duschbäder <br>
+            <strong>Wohnzimmer:</strong> Flachbildschirm, Kabel-TV, Radio <br>  
+            <strong>Schlafzimmer:</strong> Doppelbett (180*200), Flachbildschirme <br><br>  
+            <strong>Sonstiges:</strong> Kleine Terasse, Parkplatz, WLAN, Haustiere auf Anfrage, Waschmaschine im HWR, Staubsauger, Nichtraucher, In der Fußgängerzone <br>      
+          </p>       
+        <hr>
+        <h3> Saisons </h3> 
+          <p>Hauptsaison: <br> <strong>20.12.14 - 04.01.15</strong> <br> <strong>29.06.15 - 06.09.15</strong> <br> <strong>21.12.15 - 03.01.16</strong></p>
+          <p>Nebensaison: <br> <strong>08.09.14 - 31.10.14</strong>  <br>  <strong>23.03.15 - 12.04.15</strong>  <br>  <strong>27.04.15 - 28.06.15</strong> <br>  <strong>07.09.15 - 01.11.15</strong> </p>
+          <p>Zwischensaison: <br> <strong>01.11.14 - 19.12.14</strong> <br> <strong>05.01.15 - 22.03.15</strong> <br>  <strong>13.04.15 - 26.04.15</strong> <br>  <strong>02.11.15 - 20.12.15</strong></p>
+          <br>
+      </div>
+    </div>
 
-	<div class="row-fluid">
-		<div class="span8 prices">
-			<table>
-				<tr>
-				  <td><strong> Unsere Preise </strong></td>
-				  <td class="align_center"><strong> Erste Nacht </strong></td>
-				  <td class="align_center"><strong> Folgenächte </strong></td>		
-				</tr>
-				<tr> 
-					<td> Hauptsaison: </td> 
-					<td class="align_center"> 260 € </td> 
-					<td class="align_center"> 159 € </td> 
-				</tr> 
-				<tr> 
-					<td> Nebensaison: </td> 
-					<td class="align_center"> 230 €</td> 
-					<td class="align_center"> 129 € </td> 
-				</tr> 
-				<tr> 
-					<td> Zwischensaison: </td> 
-					<td class="align_center"> 190 €</td> 
-					<td class="align_center"> 89 €</td> 
-				</tr> 
-			</table>
-			<div class="text">
-				<p>Hauptsaison: <strong>20.12.14 - 04.01.15</strong>  und  <strong>29.06.15 - 06.09.15</strong> und  <strong>21.12.15 - 03.01.16</strong></p>
-				<p>Nebensaison: <strong>08.09.14 - 31.10.14</strong>  und <strong>23.03.15 - 12.04.15</strong>  und <strong>27.04.15 - 28.06.15</strong> und <strong>07.09.15 - 01.11.15</strong> </p>
-				<p>Zwischensaison: <strong>01.11.14 - 19.12.14</strong> und <strong>05.01.15 - 22.03.15</strong> und <strong>13.04.15 - 26.04.15</strong> und <strong>02.11.15 - 20.12.15</strong></p>
-				<h4>*Preise gelten für 2 Personen. Jede weitere Erwachsene Person 10 € / Tag.</h4>	
-			</div>
-		</div> 
+    <!-- prettyPhoto Gallery -->
+      <%= link_to "", strandstraße2_image("2"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße2_image("3"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße2_image("4"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße2_image("5"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße2_image("6"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße2_image("7"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße2_image("8"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße2_image("9"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße2_image("10"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße2_image("11"), rel: "prettyPhoto[wohnungsfotos]" %> 
 
-		<div class="span4 einrichtung">
-				<h2> Einrichtung  </h2> 
-				<p>
-					<strong>Küche:</strong> 4 Platten Ceranfeld, Backofen, Mikrowelle, Kühlschrank mit Gefrierfach, Geschirrspüler, Kaffeemaschine, Toaster, Wasserkocher <br><br>
-					<strong>Badezimmer:</strong> Föhn, Zwei Duschbäder <br>
-					<strong>Wohnzimmer:</strong> Flachbildschirm, Kabel-TV, Radio <br>	
-					<strong>Schlafzimmer:</strong> Doppelbett (180*200), Flachbildschirme <br><br>	
-					<strong>Sonstiges:</strong> Kleine Terasse, Parkplatz, WLAN, Haustiere auf Anfrage, Waschmaschine im HWR, Staubsauger, Nichtraucher, In der Fußgängerzone <br>			
-				</p> 
-		</div> 	
-	</div>
-	<br>
-	<br>
-
-
-
-
-	<!-- PART 4: GOOGLE MAPS + KUNDENMEINUNGEN -->
-
-	<div class="row-fluid">
-		<div class="span8">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2293.6431238392993!2d8.303053399999998!3d54.909185799999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b4de8d553d07f3%3A0x3d2f9a03dd4baf6b!2sStrandstra%C3%9Fe+14%2C+25980!5e0!3m2!1sde!2sde!4v1410298837893" width="100%" height="470"></iframe>
-		</div>
-
-		<!-- <div class="span4 kundenmeinungen">
-				<h2> Was unsere Gäste sagen: </h2>
-				<br>
-				<blockquote>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. scelerisque et tellus. Maecenas hendrerit enim sed nulla euismod id feugiat neque bibendum.
-					</p>
-					<small>Mark Zolinger Client of Project </small>
-				</blockquote>
-				<blockquote>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. scelerisque et tellus. Maecenas hendrerit enim sed nulla euismod id feugiat neque bibendum.
-					</p>
-					<small>Mark Zolinger Client of Project</small>
-				</blockquote>
-		</div>
-	</div> -->
-
-
-	<!-- closing containing row & span -->
-
-	</div>
-	</div>
+  <!-- Closing the Container Column and Row -->
+  </div>
 </div>
 
-
-<!-- initializng prettyPhoto -->
+<!-- PrettyPhoto -->
 <script type="text/javascript" charset="utf-8">
   $(document).ready(function(){
     $("a[rel^='prettyPhoto']").prettyPhoto();
   });
 </script>
-
-
 

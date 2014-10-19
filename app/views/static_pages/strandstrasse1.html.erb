@@ -45,7 +45,7 @@
 			</div>
 
 			<div class="col-xs-12 col-sm-4 spezifische_wohnungsbeschreibung">
-				<%= link_to "BUCHEN BEI HUSSMAN", "http://www.hussmann-sylt.de/index.php/ferienwohnungen/dobooking/app-moewennest/154/de" , class: "btn btn-large btn-warning" %>  
+				<%= link_to "BUCHEN BEI HUSSMAN", "http://www.hussmann-sylt.de/index.php/ferienwohnungen/dobooking/app-moewennest/154/de" ,class: "btn btn-large btn-warning", target:"_blanck" %>  
 				<h2> „Möwennest“ </h2> 
 				<p>
 					Wenn Sie mitten im im Zentrum wohnen möchten sind Sie in dieser gemütlichen, sehr zentralen, strandnahen Wohnung richtig. Sie befindet sich im 1. Stock des Vorderhauses der Strandstraße 14. Diese Wohnung ist super geeignet für Paare mit einem Kind bis ca. 10 Jahren. Sie verfügt über einen großen Wohnraum mit Essecke. Von hier aus schauen Sie direkt in die Fußgängerzone „Neue Straße“. Das Schlafzimmer hat ein Doppelbett (180 x 200) und eine Schlafnische mit einem Bett (90 x200), welche durch eine Schiebetür abgetrennt wird. In dieser Wohnung sind das WC und das Duschbad getrennt. Die gut eingerichtete Küche befindet sich im Durchgangsflur. Eine Waschmaschine für unsere Feriengäste befindet sich im Hauswirtschaftsraum auf Ihrer Etage. Zu dieser Wohnung gehört ein PKW-Stellplatz auf unserem eigenem Parkplatz, welcher ausgeschilder ist. Gerne stellen wir Ihnen ein WLAN Netz zur Verfügung, welches Sie kostenfrei nutzen können.
@@ -68,47 +68,17 @@
 			</div>
 		</div>
 
-		<!-- prettyPhoto Gallery -->
-		<div class="foto_gallery">
-			<a href="<%= strandstraße1_image("2") %>" rel="prettyPhoto[wohnungsfotos]"> 
-				<%= image_tag(strandstraße1_image("2"), alt: "Wohnung Möwennest") %> 
-			</a> 
-			
-			<a href="<%= strandstraße1_image("3") %>" rel="prettyPhoto[wohnungsfotos]"> 
-				<%= image_tag(strandstraße1_image("3"), alt: "Wohnung Möwennest") %> 
-			</a> 
-			
-			<a href="<%= strandstraße1_image("4") %>" rel="prettyPhoto[wohnungsfotos]"> 
-				<%= image_tag(strandstraße1_image("4"), alt: "Wohnung Möwennest") %> 
-			</a> 
-
-			<a href="<%= strandstraße1_image("5") %>" rel="prettyPhoto[wohnungsfotos]"> 
-				<%= image_tag(strandstraße1_image("5"), alt: "Wohnung Möwennest") %> 
-			</a> 
-
-			<a href="<%= strandstraße1_image("6") %>" rel="prettyPhoto[wohnungsfotos]"> 
-				<%= image_tag(strandstraße1_image("6"), alt: "Wohnung Möwennest") %> 
-			</a> 
-			<a href="<%= strandstraße1_image("7") %>" rel="prettyPhoto[wohnungsfotos]"> 
-				<%= image_tag(strandstraße1_image("7"), alt: "Wohnung Möwennest") %> 
-			</a> 
-			
-			<a href="<%= strandstraße1_image("8") %>" rel="prettyPhoto[wohnungsfotos]"> 
-				<%= image_tag(strandstraße1_image("8"), alt: "Wohnung Möwennest") %> 
-			</a> 
-			
-			<a href="<%= strandstraße1_image("9") %>" rel="prettyPhoto[wohnungsfotos]"> 
-				<%= image_tag(strandstraße1_image("9"), alt: "Wohnung Möwennest") %> 
-			</a> 
-
-			<a href="<%= strandstraße1_image("10") %>" rel="prettyPhoto[wohnungsfotos]"> 
-				<%= image_tag(strandstraße1_image("10"), alt: "Wohnung Möwennest") %> 
-			</a> 
-
-			<a href="<%= strandstraße1_image("11") %>" rel="prettyPhoto[wohnungsfotos]"> 
-				<%= image_tag(strandstraße1_image("11"), alt: "Wohnung Möwennest") %> 
-			</a> 
-		</div> 
+    <!-- prettyPhoto Gallery -->
+      <%= link_to "", strandstraße1_image("2"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("3"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("4"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("5"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("6"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("7"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("8"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("9"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("10"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("11"), rel: "prettyPhoto[wohnungsfotos]" %> 
 
 	<!-- Closing the Container Column and Row -->
 	</div>
