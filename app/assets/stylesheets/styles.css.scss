@@ -330,6 +330,9 @@ body{
 	img{
 		border: 5px solid #53ADD6; 
 	}
+	a:hover{
+		text-decoration: none; 
+	}
 }
 
 .spezifische_wohnungsbeschreibung{
@@ -363,15 +366,21 @@ body{
 	}
 }
 
-.gallery_link{
+.picture_gallery_button{
 	text-align: center; 
-	margin: 40px 0 50px 0; 
+	font-size: 17px; 
+	margin: 45px 10% 60px 10%; 
+	padding: 16px 95px; 
+	background-color: #418BCA; 
+	width: 80%;
+	color: white; 
+	@include border-radius; 
 }
 
-#gallery_link{
-	padding: 16px 95px; 
-	font-size: 15px; 
+.picture_gallery_button:hover{
+	background-color: #4598DF
 }
+
 
 .prices{
 	background-color: $text_box_background;
@@ -494,6 +503,15 @@ body{
 	}
 }
 
+.gallery_link{
+	text-align: center; 
+	margin: 40px 0 50px 0; 
+}
+
+#gallery_link{
+	padding: 16px 95px; 
+	font-size: 15px; 
+}
 
 
 
