@@ -1,211 +1,86 @@
-<div class="container-fluid">
+<div class="row">
+  <div class="col-xs-12 col-sm-10 col-sm-offset-1">
 
-	<div class="row-fluid">
-	<div class="span10 offset1">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8">
+        <div class="big_photo">
+          <a href="https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/new/woldsen2_optimized.jpg" rel="prettyPhoto[wohnungsfotos]">
+            <img src="https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/new/woldsen2_optimized.jpg" rel="prettyPhoto[wohnungsfotos]" width="100%" height="auto" />
 
-	<!-- FIRST PART - OBERE REIHE -->
-	<div class="row-fluid">
-		<div class="span6 boxportfolio2 fixed cat2">
-			<div id="myCarousel" class="carousel slide" style="max-width:100%;">
-				<div class="carousel-inner">
-					<div class="active item">
-							<%= image_tag("https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/new/woldsen2_optimized.jpg", alt: "Wohnung Kleiner Austernfischer") %> 
-					</div>
-					<div class="item">
-						<%= image_tag(woldsenstraße2_image("2"), alt: "Wohnung Kleiner Austernfischer") %> 
-					</div>
-					<div class="item">
-						<%= image_tag(woldsenstraße2_image("3"), alt: "Wohnung Kleiner Austernfischer") %> 
-					</div>
-					<div class="item">
-						<%= image_tag(woldsenstraße2_image("4"), alt: "Wohnung Kleiner Austernfischer") %> 
-					</div>					
-					<div class="item">
-						<%= image_tag(woldsenstraße2_image("5"), alt: "Wohnung Kleiner Austernfischer") %> 
-					</div>
-					<div class="item">
-						<%= image_tag(woldsenstraße2_image("6"), alt: "Wohnung Kleiner Austernfischer") %> 
-					</div>		
-					<div class="item">
-						<%= image_tag(woldsenstraße2_image("7"), alt: "Wohnung Kleiner Austernfischer") %> 
-					</div>
-					<div class="item">
-						<%= image_tag(woldsenstraße2_image("8"), alt: "Wohnung Kleiner Austernfischer") %> 
-					</div>		
-					<div class="item">
-						<%= image_tag(woldsenstraße2_image("9"), alt: "Wohnung Kleiner Austernfischer") %> 
-					</div>					
-					<div class="item">
-						<%= image_tag(woldsenstraße2_image("10"), alt: "Wohnung Kleiner Austernfischer") %> 
-					</div>	
-					<div class="item">
-						<%= image_tag(woldsenstraße2_image("11"), alt: "Wohnung Kleiner Austernfischer") %> 
-					</div>	
-				</div>
-				<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-				<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-			</div>
-		</div>
+            <div class="picture_gallery_button">
+              ALLE PHOTOS IN GROSS ANSCHAUN
+            </div> 
+          </a> 
+        </div>
 
-		<div class="span6 spezifische_wohnungsbeschreibung">
-			<h2> „Kleiner Austernfischer" </h2> 
-			<p>
-					Der kleine Austernfischer begrüßt Sie in Husum in ruhiger Lage nur 5 Gehminuten vom Schloss entfernt. Diese kleine, gemütliche Ferienwohnung befindet sich auf dem Hinterhof eines Mehrfamilienhauses. Sie wurde erst im Juni 2013 fertig gestellt Im Schlafzimmer befindet sich ein Doppelbett (180 x 200). Die Wohnküche ist gut ausgestattet mit Geschirrspüler, Ceranfeld, Kühlschrank, Toaster, Wasserkocher, Kaffeemaschine, Mikrowelle, sowie einer kleinen Sitzecke mit zwei Sesseln und einem Flachbildschirm. Auch das Duschbad ist modern eingerichtet. Vor der Wohnung befindet sich eine Sitzecke mit Gartenmöbeln. Ihr Auto können Sie an der wenig befahrenen Straße abstellen. Gerne stellen wir Ihnen ein kostenfreies WLAN Netz zur Verfügung.
-			</p> 
-			<%= link_to "ZUM BELEGUNGSKALENDER UND BUCHEN", strandstrasse1_path, class: "btn btn-large btn-warning" %>  
-		</div>
-	</div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2318.0905378962807!2d9.057303729193857!3d54.47898439239513!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b37fd751d9a8bb%3A0x270873a6538da9ff!2sWoldsenstra%C3%9Fe+32%2C+25813+Husum!5e0!3m2!1sde!2sde!4v1412097973893" width="100%" height="470"></iframe>
 
+        <div class="prices">
+          <table>
+            <tr>
+              <td><strong> Unsere Preisliste </strong></td>
+              <td class="align_center"><strong> 1ste Nacht </strong></td>
+              <td class="align_center"><strong> Folgenacht </strong></td>   
+            </tr>
+            <tr> 
+              <td> Hauptsaison: </td> 
+              <td class="align_center"> 75 € </td> 
+              <td class="align_center"> 45 € </td> 
+            </tr> 
+            <tr> 
+              <td> Nebensaison: </td> 
+              <td class="align_center"> 65 €</td> 
+              <td class="align_center"> 35 € </td> 
+            </tr> 
+          </table>
+            <h5> *Alle Preise gelten für 2 Personen. Jede weitere Erwachsene Person 10 € / Tag.</h5>  
+        </div> 
 
-	<!-- PART 2: MINIFOTOS -->
+      <!-- Closing Column -->
+      </div>
 
-	<div class="row-fluid">
-		<div class="span3 small_images_container">
-			<a href=<%= woldsenstraße2_image("1") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(woldsenstraße2_image_small("1"), alt: "Das Wohnzimmer") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= woldsenstraße2_image("2") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(woldsenstraße2_image_small("2"), alt: "Das Wohnzimmer") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= woldsenstraße2_image("3") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(woldsenstraße2_image_small("3"), alt: "Das Wohnzimmer") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= woldsenstraße2_image("4") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(woldsenstraße2_image_small("4"), alt: "Das Wohnzimmer") %> 
-			</a> 
-		</div>
-	</div>
-	<br>
-	<br>
-	<div class="row-fluid">
-		<div class="span3 small_images_container">
-			<a href=<%= woldsenstraße2_image("5") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(woldsenstraße2_image_small("5"), alt: "Das Wohnzimmer") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= woldsenstraße2_image("6") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(woldsenstraße2_image_small("6"), alt: "Die Küche") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= woldsenstraße2_image("7") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(woldsenstraße2_image_small("7"), alt: "Das Schlafzimmer") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container_vertical">
-			<a href=<%= woldsenstraße2_image("8") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(woldsenstraße2_image_small("8"), alt: "Das Bad") %> 
-			</a> 
-		</div>
-	</div>
-	<br>
-	<br>
-	<div class="row-fluid">
-		<div class="span3 small_images_container">
-			<a href=<%= woldsenstraße2_image("9") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(woldsenstraße2_image_small("9"), alt: "Die Terrasse") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= woldsenstraße2_image("10") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(woldsenstraße2_image_small("10"), alt: "Die Terrasse") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container">
-			<a href=<%= woldsenstraße2_image("11") %> rel="prettyPhoto[pp_gal]">
-				<%= image_tag(woldsenstraße2_image_small("11"), alt: "Das Haus") %> 
-			</a> 
-		</div>
-		<div class="span3 small_images_container_horizontal">
-				<%= image_tag(s3_image("logo.jpg"), alt: "Urlaub im Herzen Nordfrieslands") %> 
-		</div>
-	</div>
-	<br>
-	<br>	
+      <div class="col-xs-12 col-sm-4 spezifische_wohnungsbeschreibung">
+        <%= link_to "BUCHEN BEI HUSSMAN", "http://www.hussmann-sylt.de/index.php/ferienwohnungen/dobooking/app-moewennest/154/de" ,class: "btn btn-large btn-warning", target:"_blanck" %>  
+        <h2> „Kleiner Austernfischer" </h2> 
+        <p>
+            Der kleine Austernfischer begrüßt Sie in Husum in ruhiger Lage nur 5 Gehminuten vom Schloss entfernt. Diese kleine, gemütliche Ferienwohnung befindet sich auf dem Hinterhof eines Mehrfamilienhauses. Sie wurde erst im Juni 2013 fertig gestellt Im Schlafzimmer befindet sich ein Doppelbett (180 x 200). Die Wohnküche ist gut ausgestattet mit Geschirrspüler, Ceranfeld, Kühlschrank, Toaster, Wasserkocher, Kaffeemaschine, Mikrowelle, sowie einer kleinen Sitzecke mit zwei Sesseln und einem Flachbildschirm. Auch das Duschbad ist modern eingerichtet. Vor der Wohnung befindet sich eine Sitzecke mit Gartenmöbeln. Ihr Auto können Sie an der wenig befahrenen Straße abstellen. Gerne stellen wir Ihnen ein kostenfreies WLAN Netz zur Verfügung.
+        </p> 
+        <hr>
+        <h3> Einrichtung  </h3> 
+          <p>
+            <strong>Küche:</strong> 4 Platten Ceranfeld, Backofen, Mikrowelle, Kühlschrank mit Gefrierfach, Geschirrspüler, Kaffeemaschine, Toaster, Eierkocher, Wasserkocher <br><br>
+            <strong>Badezimmer:</strong> Föhn, Duschbad <br>
+            <strong>Wohnzimmer:</strong> Flachbildschirm, SAT-TV <br> 
+            <strong>Schlafzimmer:</strong> Doppelbett (180*200) <br><br>  
+            <strong>Sonstiges:</strong> Waschmaschine auf Anfrage, Fahrradschuppen auf Anfrage, Haustiere auf Anfrage, Wäscheständer, Staubsauger, WLAN, Nichtraucher <br>
+          </p> 
+        <hr>
+        <h3> Saisons </h3> 
+        <p>Hauptsaison: <br> <strong>28.06.14 - 31.10.14 </strong> <br> <strong>20.12.14 - 03.01.15</strong>   <br>  <strong>29.03.15 - 30.10.15</strong></p>
+        <p>Nebensaison: <br> <strong>01.11.14 - 19.12.14</strong>   <br> <strong>04.01.15 - 28.03.15</strong> <br> <strong>31.10.15 - 18.12.15</strong> </p>
+      </div>
+    </div>
 
-	<!-- PART 3: PREISTABELLE * EINRICHTUNGEN -->
+    <!-- prettyPhoto Gallery -->
+      <%= link_to "", strandstraße1_image("2"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("3"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("4"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("5"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("6"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("7"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("8"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("9"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("10"), rel: "prettyPhoto[wohnungsfotos]" %> 
+      <%= link_to "", strandstraße1_image("11"), rel: "prettyPhoto[wohnungsfotos]" %> 
 
-	<div class="row-fluid">
-		<div class="span8 prices">
-			<table>
-				<tr>
-				  <td><strong> Unsere Preise </strong></td>
-				  <td class="align_center"><strong> Erste Nacht </strong></td>
-				  <td class="align_center"><strong> Folgenächte </strong></td>		
-				</tr>
-				<tr> 
-					<td> Hauptsaison: </td> 
-					<td class="align_center"> 75 € </td> 
-					<td class="align_center"> 45 € </td> 
-				</tr> 
-				<tr> 
-					<td> Nebensaison: </td> 
-					<td class="align_center"> 65 €</td> 
-					<td class="align_center"> 35 € </td> 
-				</tr> 
-			</table>
-			<div class="text">
-				<p>Hauptsaison: <strong>28.06.14 - 31.10.14 </strong> und <strong>20.12.14 - 03.01.15</strong>  und  <strong>29.03.15 - 30.10.15</strong></p>
-				<p>Nebensaison: <strong>01.11.14 - 19.12.14</strong>  und <strong>04.01.15 - 28.03.15</strong> und <strong>31.10.15 - 18.12.15</strong> </p>
-				<h4>*Preise gelten für 2 Personen. Jede weitere Erwachsene Person 10 € / Tag.</h4>	
-			</div>
-		</div> 
-
-		<div class="span4 einrichtung">
-				<h2> Einrichtung  </h2> 
-				<p>
-					<strong>Küche:</strong> 4 Platten Ceranfeld, Backofen, Mikrowelle, Kühlschrank mit Gefrierfach, Geschirrspüler, Kaffeemaschine, Toaster, Eierkocher, Wasserkocher <br><br>
-					<strong>Badezimmer:</strong> Föhn, Duschbad <br>
-					<strong>Wohnzimmer:</strong> Flachbildschirm, SAT-TV <br>	
-					<strong>Schlafzimmer:</strong> Doppelbett (180*200) <br><br>	
-					<strong>Sonstiges:</strong> Waschmaschine auf Anfrage, Fahrradschuppen auf Anfrage, Haustiere auf Anfrage, Wäscheständer, Staubsauger, WLAN, Nichtraucher <br>
-				</p> 
-		</div> 	
-	</div>
-	<br>
-	<br>
-
-
-
-
-	<!-- PART 4: GOOGLE MAPS + KUNDENMEINUNGEN -->
-
-	<div class="row-fluid">
-		<div class="span8">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2318.0905378962807!2d9.057303729193857!3d54.47898439239513!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b37fd751d9a8bb%3A0x270873a6538da9ff!2sWoldsenstra%C3%9Fe+32%2C+25813+Husum!5e0!3m2!1sde!2sde!4v1412097973893" width="100%" height="470" frameborder="0" style="border:0"></iframe>
-		</div>
-
-		<div class="span4 kundenmeinungen">
-				<h2> Was unsere Gäste sagen: </h2>
-				<br>
-				<blockquote>
-					<p>				
-						„Nett und gemütlich eingerichtete Wohnung - alles neu und modern. Wir hatten eine angenehmen Woche, um die Nordsee für uns zu entdecken. Von Husum aus sind
-						wir u.a. nach Sylt, Föhr und Amrum gestartet. Die geführte Wattwanderung unternahmen wir in der Husumer Bucht."
-					</p>
-					<h4> A. Klein aus Markranstädt </h4>
-				</blockquote>
-
-		</div>
-	</div>
-
-	<!-- closing containing row & span -->
-
-	</div>
-	</div>
+  <!-- Closing the Container Column and Row -->
+  </div>
 </div>
 
-
-<!-- initializng prettyPhoto -->
+<!-- PrettyPhoto -->
 <script type="text/javascript" charset="utf-8">
   $(document).ready(function(){
     $("a[rel^='prettyPhoto']").prettyPhoto();
   });
 </script>
+
