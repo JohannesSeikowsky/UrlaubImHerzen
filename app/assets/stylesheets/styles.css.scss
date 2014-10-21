@@ -76,8 +76,10 @@ body{
 	.other_footer .left_side{
 		float: left; 
 		margin-bottom: 10px; 
+		margin-right: 15px;
 	}
 }
+
 
 /* HOMEPAGE */ 
 
@@ -88,6 +90,7 @@ body{
 	padding: 20px 0px 25px 0px; 
 	line-height: 1.15; 
 }
+
 .home_picture{
 	h2{
 		text-align: center; 
@@ -97,7 +100,7 @@ body{
 	}
 	img{
 		width: 100%;
-		height: 350px;
+		height: auto;
 		border: 5px solid #4C849B;
 	}
 	a:hover{
@@ -229,6 +232,7 @@ body{
 		padding-bottom: 45px; 
 		text-align: center; 
 }
+
 #sylt{
 	color: $color_of_page_title; 	
 }
@@ -242,7 +246,6 @@ body{
 	.image{
 		img{
 			width: 100%;
-			height: 350px;	
 			border: 5px solid #4C849B; 
 		}
 	}
@@ -276,6 +279,9 @@ body{
 		}
 	}
 }
+
+
+
 
 
 @media (max-width: 1200px){
@@ -389,7 +395,7 @@ body{
 	}
 }
 
-@media (min-width: 992px){
+@media (min-width: 468px){
 	iframe{
 		height: 470px; 
 	}
