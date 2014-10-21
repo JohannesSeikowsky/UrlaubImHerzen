@@ -7,18 +7,35 @@ $text_box_background: #DDDDDD;
 	-webkit-border-radius: 4px;	
 }
 
-body{
-	background: url("https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/next_background_optimized.jpg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
- 	font-family: Arial;
+@media (min-width: 768px){
+	body{
+		background: red url("https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/next_background_optimized.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	 	font-family: Arial;
+	}
 }
+
+@media (max-width: 768px){
+	body{
+		background: red;
+	 	font-family: Arial;
+	}
+}
+
+
 
 /* HEADER */ 
 .boostrap_header{
 	background-color: #4C849B; 
+}
+
+@media (max-width: 850px) and (min-width: 760px){
+	.boostrap_header li a{
+		font-size: 11px; 
+	}
 }
 
 
@@ -53,12 +70,13 @@ body{
 		}
 }
 
-@media (max-width: 468px){
+@media (max-width: 768px){
 	.other_footer .right_side{
 		margin-left: 0; 
 	}
 	.other_footer .left_side{
 		float: left; 
+		margin-bottom: 10px; 
 	}
 }
 
