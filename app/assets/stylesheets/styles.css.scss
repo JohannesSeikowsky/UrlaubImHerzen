@@ -7,22 +7,13 @@ $text_box_background: #DDDDDD;
 	-webkit-border-radius: 4px;	
 }
 
-@media (min-width: 768px){
-	body{
-		background: red url("https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/next_background_optimized.jpg") no-repeat center center fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-	 	font-family: Arial;
-	}
-}
-
-@media (max-width: 768px){
-	body{
-		background: red;
-	 	font-family: Arial;
-	}
+body{
+	background: url("https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/next_background_optimized.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 	font-family: Arial;
 }
 
 
