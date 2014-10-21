@@ -27,7 +27,7 @@ body{
 		width: auto; 
 		position: absolute; 
 		top: 3px; 
-		left: 4px; 
+		left: 7px; 
 	} 
 }
 
@@ -250,7 +250,7 @@ body{
 		}
 	}
 	.description{
-		height: 350px;
+		height: 362px;
 		background-color: $text_box_background;
 		opacity: 0.98; 
 		padding: 12px 0px 0px 40px; 
@@ -281,9 +281,6 @@ body{
 }
 
 
-
-
-
 @media (max-width: 1200px){
 	.wohnung .description	a{
 				padding: 14px; 
@@ -293,7 +290,7 @@ body{
 			}
 }
 
-@media (max-width: 992px){
+@media (max-width: 1200px){
 	.wohnung img{
 		margin-bottom: 20px;
 	}
@@ -394,6 +391,13 @@ body{
 		margin-top: 30px; 
 	}
 }
+
+@media (max-width: 992px){
+	.prices{
+		margin-bottom: 30px; 
+	}
+}
+
 
 @media (min-width: 468px){
 	iframe{
