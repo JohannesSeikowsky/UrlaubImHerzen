@@ -7,8 +7,6 @@ $text_box_background: #DDDDDD;
 	-webkit-border-radius: 4px;	
 }
 
-@nav-link-padding: 200px; 
-
 body{
 	background: url("https://s3-eu-west-1.amazonaws.com/urlaub-im-herzen/next_background_optimized.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -55,6 +53,14 @@ body{
 		}
 }
 
+@media (max-width: 468px){
+	.other_footer .right_side{
+		margin-left: 0; 
+	}
+	.other_footer .left_side{
+		float: left; 
+	}
+}
 
 /* HOMEPAGE */ 
 
@@ -120,6 +126,12 @@ body{
 	}
 }
 
+@media (max-width: 992px) {
+	.ueber_uns .text {
+		margin-bottom: 30px; 
+	}
+}
+
 
 
 /* KONTAKT */ 
@@ -138,13 +150,13 @@ body{
 	}
 }
 
-@media (max-width: 900px){
-	.kontakt{
-		a{
-			font-size: 16px;
+@media (max-width: 800px){
+		.kontakt{
+			margin-bottom: 30px; 
+			height: 380px; 
 		}
-	}
 }
+
 
 
 
@@ -167,11 +179,26 @@ body{
 	img{
 		width: 100%; 
 		height: auto; 
-		border: 5px solid #53ADD6;
+		border: 5px solid #4C849B;
 	}
 	.row{
 		margin-bottom: 30px; 
 	}
+}
+
+@media (max-width: 992px){
+	.tipps_container{
+		padding: 20px 8px 65px 8px; 
+	}
+	.tipps_container img{
+		margin: 10px 0; 
+	}
+	.tipps_container p{
+		margin-bottom: 15px; 
+	}
+	.tipps_container .row{
+			margin-bottom: 0;
+		} 
 }
 
 
@@ -199,7 +226,7 @@ body{
 		img{
 			width: 100%;
 			height: 350px;	
-			border: 5px solid #53ADD6; 
+			border: 5px solid #4C849B; 
 		}
 	}
 	.description{
@@ -233,6 +260,24 @@ body{
 	}
 }
 
+
+@media (max-width: 1200px){
+	.wohnung .description	a{
+				padding: 14px; 
+			}
+	.wohnung .description	h2{
+				font-size: 32px;
+			}
+}
+
+@media (max-width: 992px){
+	.wohnung img{
+		margin-bottom: 20px;
+	}
+	.ferienwohnungen_heading{
+			font-size: 43px; 	
+	}
+}
 
 
 /* FERIENWOHNUNGS SPEZIFISCH */ 
@@ -268,9 +313,9 @@ body{
 	}
 	a{
 	 position: absolute; 
-	 top: 2px; 
-	 left: 2px; 
-	 right: 2px; 
+	 top: 7px; 
+	 left: 10px; 
+	 right: 10px; 
 	 padding: 15px 0; 
 	 margin-bottom: 300px; 
 	 display: block; 
@@ -292,7 +337,6 @@ body{
 	background-color: #4E9DBC;
 }
 
-
 .prices{
 	background-color: $text_box_background;
 	opacity: 0.98; 
@@ -313,6 +357,27 @@ body{
 		}
 	}
 }
+
+@media (max-width: 600px){
+	.big_photo .picture_gallery_button{
+		font-size: 13px; 
+		padding: 16px 55px; 	
+		margin: 35px 10% 45px 10%; 
+	}
+ .prices{
+		display: none; 
+	}
+	.spezifische_wohnungsbeschreibung{
+		margin-top: 30px; 
+	}
+}
+
+@media (min-width: 992px){
+	iframe{
+		height: 470px; 
+	}
+}
+
 
 
 
