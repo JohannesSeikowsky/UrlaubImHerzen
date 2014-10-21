@@ -20,7 +20,15 @@ body{
 
 /* HEADER */ 
 .boostrap_header{
-	background-color: #4C849B; 
+	background-color: #4C849B;
+	position: relative; 
+	img{
+		height: 50px; 
+		width: auto; 
+		position: absolute; 
+		top: 0px; 
+		left: 2px; 
+	} 
 }
 
 @media (max-width: 850px) and (min-width: 760px){
