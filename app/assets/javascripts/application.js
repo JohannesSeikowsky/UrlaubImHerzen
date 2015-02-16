@@ -14,4 +14,3 @@
 //= require jquery.prettyPhoto
 //= require turbolinks
 //= require_tree .
-
